@@ -1,0 +1,252 @@
+/* PROMPT ITALIC
+------------------------------------------------------------------------------------------------------------------------------------ */
+@font-face {
+  font-family: 'Prompt';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/prompt-italic_thin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/prompt-italic_extralight.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/prompt-italic_light.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/prompt-italic_regular.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/prompt-italic_medium.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/prompt-italic_semibold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/prompt-italic_bold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/prompt-italic_extrabold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/prompt-italic_black.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* PROMPT NORMAL
+------------------------------------------------------------------------------------------------------------------------------------ */
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/prompt_thin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/prompt_extralight.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/prompt_light.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/prompt_regular.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/prompt_medium.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/prompt_semibold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/prompt_bold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/prompt_extrabold.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/prompt_black.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+/* element VARIABLES
+------------------------------------------------------------------------------------------------------------------------------------ */
+/* element MIXIN
+------------------------------------------------------------------------------------------------------------------------------------ */
+/* element GLOBAL
+------------------------------------------------------------------------------------------------------------------------------------ */
+/* line 37, scss/_btg-comon.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 41, scss/_btg-comon.scss */
+body {
+  font-family: Prompt, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: block;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden; }
+
+/* element TIMER
+------------------------------------------------------------------------------------------------------------------------------------ */
+/* line 6, scss/_btg-intro.scss */
+.fullcontainer_timer {
+  text-align: center;
+  width: 100%; }
+  /* line 9, scss/_btg-intro.scss */
+  .fullcontainer_timer .container_texte {
+    margin: 50px 0; }
+    /* line 11, scss/_btg-intro.scss */
+    .fullcontainer_timer .container_texte p {
+      font-family: Prompt;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 15px;
+      color: white;
+      letter-spacing: 2px; }
+  /* line 15, scss/_btg-intro.scss */
+  .fullcontainer_timer .container_timer {
+    width: 100%;
+    opacity: 0.15; }
+    /* line 18, scss/_btg-intro.scss */
+    .fullcontainer_timer .container_timer p {
+      margin-left: -60px;
+      font-family: Prompt;
+      font-weight: 900;
+      font-size: 700px;
+      line-height: 10px;
+      color: white;
+      letter-spacing: 1rem; }
+
+/* element GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+/* line 27, scss/_btg-intro.scss */
+.fullcontainer_guest {
+  position: absolute;
+  bottom: 110px;
+  left: 95px; }
+  /* line 35, scss/_btg-intro.scss */
+  .fullcontainer_guest .container_title .container_name p {
+    font-family: Prompt;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 35px;
+    color: white;
+    letter-spacing: 0; }
+    /* line 37, scss/_btg-intro.scss */
+    .fullcontainer_guest .container_title .container_name p span {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 40px;
+      line-height: 35px;
+      color: white;
+      letter-spacing: 0; }
+      /* line 39, scss/_btg-intro.scss */
+      .fullcontainer_guest .container_title .container_name p span strong {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 2.8rem;
+        color: white;
+        letter-spacing: 0; }
+  /* line 46, scss/_btg-intro.scss */
+  .fullcontainer_guest .container_title .container_fonction p {
+    font-family: Prompt;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 25px;
+    color: white;
+    letter-spacing: 0; }
+
+/* element ORGA
+------------------------------------------------------------------------------------------------------------------------------------ */
+/* line 55, scss/_btg-intro.scss */
+.fullcontainer_orga {
+  position: absolute;
+  bottom: 110px;
+  right: 95px; }
+  /* line 60, scss/_btg-intro.scss */
+  .fullcontainer_orga .container_orga .orga_title {
+    font-family: Prompt;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 25px;
+    color: white;
+    letter-spacing: 0; }
+  /* line 63, scss/_btg-intro.scss */
+  .fullcontainer_orga .container_orga p {
+    font-family: Prompt;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    letter-spacing: 0; }
+    /* line 65, scss/_btg-intro.scss */
+    .fullcontainer_orga .container_orga p strong {
+      font-family: Prompt;
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 30px;
+      color: white;
+      letter-spacing: 0; }
