@@ -150,27 +150,27 @@ body {
 
 /* element TIMER
 ------------------------------------------------------------------------------------------------------------------------------------ */
-/* line 6, scss/_btg-intro.scss */
-.fullcontainer_timer {
+/* line 5, scss/_btg-intro.scss */
+.fullcontainer_intro-timer {
   text-align: center;
   width: 100%; }
-  /* line 9, scss/_btg-intro.scss */
-  .fullcontainer_timer .container_texte {
+  /* line 8, scss/_btg-intro.scss */
+  .fullcontainer_intro-timer .container_texte {
     margin: 50px 0; }
-    /* line 11, scss/_btg-intro.scss */
-    .fullcontainer_timer .container_texte p {
+    /* line 10, scss/_btg-intro.scss */
+    .fullcontainer_intro-timer .container_texte p {
       font-family: Prompt;
       font-weight: 300;
       font-size: 15px;
       line-height: 15px;
       color: white;
       letter-spacing: 2px; }
-  /* line 15, scss/_btg-intro.scss */
-  .fullcontainer_timer .container_timer {
+  /* line 14, scss/_btg-intro.scss */
+  .fullcontainer_intro-timer .container_timer {
     width: 100%;
     opacity: 0.15; }
-    /* line 18, scss/_btg-intro.scss */
-    .fullcontainer_timer .container_timer p {
+    /* line 17, scss/_btg-intro.scss */
+    .fullcontainer_intro-timer .container_timer p {
       margin-left: -60px;
       font-family: Prompt;
       font-weight: 900;
@@ -181,72 +181,134 @@ body {
 
 /* element GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
-/* line 27, scss/_btg-intro.scss */
-.fullcontainer_guest {
+/* line 26, scss/_btg-intro.scss */
+.fullcontainer_intro-guest {
+  display: flex;
+  flex-direction: row;
   position: absolute;
   bottom: 110px;
   left: 95px; }
-  /* line 35, scss/_btg-intro.scss */
-  .fullcontainer_guest .container_title .container_name p {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 35px;
-    line-height: 35px;
-    color: white;
-    letter-spacing: 0; }
+  /* line 32, scss/_btg-intro.scss */
+  .fullcontainer_intro-guest .container_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
     /* line 37, scss/_btg-intro.scss */
-    .fullcontainer_guest .container_title .container_name p span {
+    .fullcontainer_intro-guest .container_title .container_name p {
       font-family: Prompt;
       font-weight: 200;
-      font-size: 40px;
+      font-size: 35px;
       line-height: 35px;
       color: white;
       letter-spacing: 0; }
       /* line 39, scss/_btg-intro.scss */
-      .fullcontainer_guest .container_title .container_name p span strong {
+      .fullcontainer_intro-guest .container_title .container_name p span {
         font-family: Prompt;
-        font-weight: 900;
+        font-weight: 200;
         font-size: 40px;
-        line-height: 2.8rem;
+        line-height: 35px;
         color: white;
         letter-spacing: 0; }
-  /* line 46, scss/_btg-intro.scss */
-  .fullcontainer_guest .container_title .container_fonction p {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 25px;
-    line-height: 25px;
-    color: white;
-    letter-spacing: 0; }
+        /* line 41, scss/_btg-intro.scss */
+        .fullcontainer_intro-guest .container_title .container_name p span strong {
+          font-family: Prompt;
+          font-weight: 900;
+          font-size: 40px;
+          line-height: 35px;
+          color: white;
+          letter-spacing: 0; }
+    /* line 48, scss/_btg-intro.scss */
+    .fullcontainer_intro-guest .container_title .container_fonction p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 25px;
+      line-height: 25px;
+      color: white;
+      letter-spacing: 0; }
 
 /* element ORGA
 ------------------------------------------------------------------------------------------------------------------------------------ */
-/* line 55, scss/_btg-intro.scss */
-.fullcontainer_orga {
+/* line 57, scss/_btg-intro.scss */
+.fullcontainer_intro-orga {
   position: absolute;
   bottom: 110px;
   right: 95px; }
-  /* line 60, scss/_btg-intro.scss */
-  .fullcontainer_orga .container_orga .orga_title {
+  /* line 62, scss/_btg-intro.scss */
+  .fullcontainer_intro-orga .container_orga .orga_title {
     font-family: Prompt;
     font-weight: 100;
     font-size: 25px;
     line-height: 25px;
     color: white;
     letter-spacing: 0; }
-  /* line 63, scss/_btg-intro.scss */
-  .fullcontainer_orga .container_orga p {
+  /* line 65, scss/_btg-intro.scss */
+  .fullcontainer_intro-orga .container_orga p {
     font-family: Prompt;
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
     color: white;
     letter-spacing: 0; }
-    /* line 65, scss/_btg-intro.scss */
-    .fullcontainer_orga .container_orga p strong {
+    /* line 67, scss/_btg-intro.scss */
+    .fullcontainer_intro-orga .container_orga p strong {
       font-family: Prompt;
       font-weight: 900;
       font-size: 30px;
       line-height: 30px;
       color: white;
       letter-spacing: 0; }
+
+/* element TITLE
+------------------------------------------------------------------------------------------------------------------------------------ */
+/* line 5, scss/_btg-global.scss */
+.fullcontainer_global-title {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 55px;
+  left: 95px; }
+  /* line 11, scss/_btg-global.scss */
+  .fullcontainer_global-title .container_logo {
+    margin: 0 5px 0 0; }
+  /* line 14, scss/_btg-global.scss */
+  .fullcontainer_global-title .container_guest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    /* line 19, scss/_btg-global.scss */
+    .fullcontainer_global-title .container_guest .container_name p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 25px;
+      line-height: 25px;
+      color: white;
+      letter-spacing: 1px; }
+      /* line 21, scss/_btg-global.scss */
+      .fullcontainer_global-title .container_guest .container_name p span {
+        font-family: Prompt;
+        font-weight: 200;
+        font-size: 35px;
+        line-height: 30px;
+        color: white;
+        letter-spacing: 1px; }
+        /* line 23, scss/_btg-global.scss */
+        .fullcontainer_global-title .container_guest .container_name p span strong {
+          font-family: Prompt;
+          font-weight: 900;
+          font-size: 40px;
+          line-height: 35px;
+          color: white;
+          letter-spacing: 0; }
+    /* line 30, scss/_btg-global.scss */
+    .fullcontainer_global-title .container_guest .container_fonction p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 20px;
+      line-height: 20px;
+      color: white;
+      letter-spacing: 1px; }
+
+/* element GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+/* element HOST
+------------------------------------------------------------------------------------------------------------------------------------ */

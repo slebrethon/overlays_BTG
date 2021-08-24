@@ -1,0 +1,42 @@
+// behindthegames GLOBAL
+
+/* element TITLE
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_global-title {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 55px;
+  left: 95px;
+  .container_logo {
+    margin: 0 5px 0 0;
+  }
+  .container_guest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .container_name {
+      p {
+        @include font(Prompt,200,25px,25px,$color_white,1px);
+        span {
+          @include font(Prompt,200,35px,30px,$color_white,1px);
+          strong {
+            @include font(Prompt,900,40px,35px,$color_white,0);
+          }
+        }
+      }
+    }
+    .container_fonction {
+      p {
+       @include font(Prompt,200,20px,20px,$color_white,1px);
+      }
+    }
+  }
+}
+
+
+/* element GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* element HOST
+------------------------------------------------------------------------------------------------------------------------------------ */
