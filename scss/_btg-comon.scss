@@ -1,0 +1,48 @@
+// import COMMUN
+
+/* element VARIABLES
+------------------------------------------------------------------------------------------------------------------------------------ */
+$color_white: rgb(255,255,255);
+$color_black: rgb(0,0,0);
+$color_blue: rgb(20,60,100);
+$color_green: rgb(80,160,145);
+
+
+/* element MIXIN
+------------------------------------------------------------------------------------------------------------------------------------ */
+@mixin padding($padtop,$padbottom,$padleft,$padright) {
+  padding-top: $padtop;
+  padding-bottom: $padbottom;
+  padding-left: $padleft;
+  padding-right: $padright;
+}
+@mixin margin($margtop,$margbottom,$margleft,$margright) {
+  margin-top: $margtop;
+  margin-bottom: $margbottom;
+  margin-left: $margleft;
+  margin-right: $margright;
+}
+@mixin font($fontfamily,$fontweight,$fontsize,$fontline,$fontcolor,$fontspacer) {
+  font-family: $fontfamily;
+  font-weight: $fontweight;
+  font-size: $fontsize;
+  line-height: $fontline;
+  color: $fontcolor;
+  letter-spacing: $fontspacer;
+}
+
+
+/* element GLOBAL
+------------------------------------------------------------------------------------------------------------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Prompt, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: block;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+}

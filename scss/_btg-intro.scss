@@ -1,0 +1,70 @@
+// behindthegames INTRO
+
+
+/* element TIMER
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_timer {
+  text-align: center;
+  width: 100%;
+  .container_texte {
+    margin: 50px 0;
+    p {
+      @include font(Prompt,300,15px,15px,$color_white,2px);
+    }
+  }
+  .container_timer {
+    width: 100%;
+    opacity: 0.15;
+    p {
+      margin-left: -60px;
+      @include font(Prompt,900,700px,10px,$color_white,1rem);
+    }
+  }
+}
+
+/* element GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_guest {
+  position: absolute;
+  bottom: 110px;
+  left: 95px;
+  .container_picture {
+  }
+  .container_title {
+    .container_name {
+      p {
+        @include font(Prompt,200,35px,35px,$color_white,0);
+        span {
+          @include font(Prompt,200,40px,35px,$color_white,0);
+          strong {
+            @include font(Prompt,900,40px,2.8rem,$color_white,0);
+          }
+        }
+      }
+    }
+    .container_fonction {
+      p {
+        @include font(Prompt,200,25px,25px,$color_white,0);
+      }
+    }
+  }
+}
+
+/* element ORGA
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_orga {
+  position: absolute;
+  bottom: 110px;
+  right: 95px;
+  .container_orga {
+    .orga_title {
+      @include font(Prompt,100,25px,25px,$color_white,0);
+    }
+    p {
+      @include font(Prompt,400,30px,30px,$color_white,0);
+      strong {
+        @include font(Prompt,900,30px,30px,$color_white,0);
+      }
+    }
+  }
+}
