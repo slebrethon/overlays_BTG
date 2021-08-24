@@ -1,9 +1,8 @@
 // behindthegames INTRO
 
-
 /* element TIMER
 ------------------------------------------------------------------------------------------------------------------------------------ */
-.fullcontainer_timer {
+.fullcontainer_intro-timer {
   text-align: center;
   width: 100%;
   .container_texte {
@@ -24,20 +23,23 @@
 
 /* element GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
-.fullcontainer_guest {
+.fullcontainer_intro-guest {
+  display: flex;
+  flex-direction: row;
   position: absolute;
   bottom: 110px;
   left: 95px;
-  .container_picture {
-  }
   .container_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .container_name {
       p {
         @include font(Prompt,200,35px,35px,$color_white,0);
         span {
           @include font(Prompt,200,40px,35px,$color_white,0);
           strong {
-            @include font(Prompt,900,40px,2.8rem,$color_white,0);
+            @include font(Prompt,900,40px,35px,$color_white,0);
           }
         }
       }
@@ -52,7 +54,7 @@
 
 /* element ORGA
 ------------------------------------------------------------------------------------------------------------------------------------ */
-.fullcontainer_orga {
+.fullcontainer_intro-orga {
   position: absolute;
   bottom: 110px;
   right: 95px;
