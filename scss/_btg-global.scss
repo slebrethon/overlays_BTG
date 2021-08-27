@@ -37,6 +37,46 @@
 
 /* element GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_global-guest, .fullcontainer_global-host {
+  position: absolute;
+  bottom: 85px;
+  left: 95px;
+  .container_name {
+    p {
+      @include font(Prompt,400,40px,45px,$color_white,1px);
+      strong {
+        @include font(Prompt,900,45px,45px,$color_white,0);
+        display: block;
+      }
+    }
+  }
+  .container_fonction {
+    p {
+      margin-top: 5px;
+      @include font(Prompt,200,25px,30px,$color_white,1px);
+    }
+  }
+}
+.fullcontainer_global-guest-host {
+  position: absolute;
+  left: 1750px;
+  &.host-nv {
+    top: 730px;
+  }
+  &.host-at {
+    top: 972px;
+  }
+    p {
+      @include font(Prompt,400,20px,20px,$color_white,1px);
+      strong {
+        @include font(Prompt,900,20px,20px,$color_white,0);
+        display: block;
+      }
+    }
+}
 
 /* element HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+

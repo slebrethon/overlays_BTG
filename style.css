@@ -141,6 +141,7 @@
 
 /* line 41, scss/_btg-comon.scss */
 body {
+  background-color: rgba(0, 0, 0, 0);
   font-family: Prompt, Arial, Helvetica, sans-serif;
   font-size: 15px;
   display: block;
@@ -186,7 +187,7 @@ body {
   display: flex;
   flex-direction: row;
   position: absolute;
-  bottom: 110px;
+  bottom: 20px;
   left: 95px; }
   /* line 32, scss/_btg-intro.scss */
   .fullcontainer_intro-guest .container_title {
@@ -310,5 +311,65 @@ body {
 
 /* element GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
+/* line 40, scss/_btg-global.scss */
+.fullcontainer_global-guest, .fullcontainer_global-host {
+  position: absolute;
+  bottom: 85px;
+  left: 95px; }
+  /* line 45, scss/_btg-global.scss */
+  .fullcontainer_global-guest .container_name p, .fullcontainer_global-host .container_name p {
+    font-family: Prompt;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    color: white;
+    letter-spacing: 1px; }
+    /* line 47, scss/_btg-global.scss */
+    .fullcontainer_global-guest .container_name p strong, .fullcontainer_global-host .container_name p strong {
+      font-family: Prompt;
+      font-weight: 900;
+      font-size: 45px;
+      line-height: 45px;
+      color: white;
+      letter-spacing: 0;
+      display: block; }
+  /* line 54, scss/_btg-global.scss */
+  .fullcontainer_global-guest .container_fonction p, .fullcontainer_global-host .container_fonction p {
+    margin-top: 5px;
+    font-family: Prompt;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+    letter-spacing: 1px; }
+
+/* line 60, scss/_btg-global.scss */
+.fullcontainer_global-guest-host {
+  position: absolute;
+  left: 1750px; }
+  /* line 63, scss/_btg-global.scss */
+  .fullcontainer_global-guest-host.host-nv {
+    top: 730px; }
+  /* line 66, scss/_btg-global.scss */
+  .fullcontainer_global-guest-host.host-at {
+    top: 972px; }
+  /* line 69, scss/_btg-global.scss */
+  .fullcontainer_global-guest-host p {
+    font-family: Prompt;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    letter-spacing: 1px; }
+    /* line 71, scss/_btg-global.scss */
+    .fullcontainer_global-guest-host p strong {
+      font-family: Prompt;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 20px;
+      color: white;
+      letter-spacing: 0;
+      display: block; }
+
 /* element HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
