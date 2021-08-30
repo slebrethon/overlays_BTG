@@ -309,14 +309,44 @@ body {
       color: white;
       letter-spacing: 1px; }
 
-/* element GUEST
+/* element HOST HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
-/* line 40, scss/_btg-global.scss */
+/* line 39, scss/_btg-global.scss */
+.fullcontainer_global-host-host {
+  position: absolute;
+  top: 780px; }
+  /* line 42, scss/_btg-global.scss */
+  .fullcontainer_global-host-host.host-nv {
+    left: 590px; }
+  /* line 45, scss/_btg-global.scss */
+  .fullcontainer_global-host-host.host-at {
+    left: 1525px; }
+  /* line 48, scss/_btg-global.scss */
+  .fullcontainer_global-host-host p {
+    font-family: Prompt;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    color: white;
+    letter-spacing: 1px; }
+    /* line 50, scss/_btg-global.scss */
+    .fullcontainer_global-host-host p strong {
+      font-family: Prompt;
+      font-weight: 900;
+      font-size: 35px;
+      line-height: 35px;
+      color: white;
+      letter-spacing: 0;
+      display: block; }
+
+/* element GUEST HOST
+------------------------------------------------------------------------------------------------------------------------------------ */
+/* line 59, scss/_btg-global.scss */
 .fullcontainer_global-guest, .fullcontainer_global-host {
   position: absolute;
   bottom: 85px;
   left: 95px; }
-  /* line 45, scss/_btg-global.scss */
+  /* line 64, scss/_btg-global.scss */
   .fullcontainer_global-guest .container_name p, .fullcontainer_global-host .container_name p {
     font-family: Prompt;
     font-weight: 400;
@@ -324,7 +354,7 @@ body {
     line-height: 45px;
     color: white;
     letter-spacing: 1px; }
-    /* line 47, scss/_btg-global.scss */
+    /* line 66, scss/_btg-global.scss */
     .fullcontainer_global-guest .container_name p strong, .fullcontainer_global-host .container_name p strong {
       font-family: Prompt;
       font-weight: 900;
@@ -333,7 +363,7 @@ body {
       color: white;
       letter-spacing: 0;
       display: block; }
-  /* line 54, scss/_btg-global.scss */
+  /* line 73, scss/_btg-global.scss */
   .fullcontainer_global-guest .container_fonction p, .fullcontainer_global-host .container_fonction p {
     margin-top: 5px;
     font-family: Prompt;
@@ -343,17 +373,17 @@ body {
     color: white;
     letter-spacing: 1px; }
 
-/* line 60, scss/_btg-global.scss */
+/* line 79, scss/_btg-global.scss */
 .fullcontainer_global-guest-host {
   position: absolute;
   left: 1750px; }
-  /* line 63, scss/_btg-global.scss */
+  /* line 82, scss/_btg-global.scss */
   .fullcontainer_global-guest-host.host-nv {
     top: 730px; }
-  /* line 66, scss/_btg-global.scss */
+  /* line 85, scss/_btg-global.scss */
   .fullcontainer_global-guest-host.host-at {
-    top: 972px; }
-  /* line 69, scss/_btg-global.scss */
+    top: 970px; }
+  /* line 88, scss/_btg-global.scss */
   .fullcontainer_global-guest-host p {
     font-family: Prompt;
     font-weight: 400;
@@ -361,7 +391,7 @@ body {
     line-height: 20px;
     color: white;
     letter-spacing: 1px; }
-    /* line 71, scss/_btg-global.scss */
+    /* line 90, scss/_btg-global.scss */
     .fullcontainer_global-guest-host p strong {
       font-family: Prompt;
       font-weight: 900;
@@ -371,5 +401,117 @@ body {
       letter-spacing: 0;
       display: block; }
 
+/* line 96, scss/_btg-global.scss */
+.fullcontainer_global-host-guest {
+  position: absolute;
+  right: 95px;
+  bottom: 100px; }
+  /* line 101, scss/_btg-global.scss */
+  .fullcontainer_global-host-guest .container_name p {
+    font-family: Prompt;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+    letter-spacing: 1px; }
+    /* line 103, scss/_btg-global.scss */
+    .fullcontainer_global-host-guest .container_name p strong {
+      font-family: Prompt;
+      font-weight: 900;
+      font-size: 25px;
+      line-height: 30px;
+      color: white;
+      letter-spacing: 0;
+      display: block; }
+  /* line 110, scss/_btg-global.scss */
+  .fullcontainer_global-host-guest .container_fonction p {
+    margin-top: 5px;
+    font-family: Prompt;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    letter-spacing: 0; }
+
+/* element GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+/* line 5, scss/_btg-slide.scss */
+.fullcontainer_slide-guest {
+  position: absolute;
+  right: 95px;
+  bottom: 100px; }
+  /* line 10, scss/_btg-slide.scss */
+  .fullcontainer_slide-guest .container_name p {
+    font-family: Prompt;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+    letter-spacing: 1px; }
+    /* line 12, scss/_btg-slide.scss */
+    .fullcontainer_slide-guest .container_name p strong {
+      font-family: Prompt;
+      font-weight: 900;
+      font-size: 25px;
+      line-height: 30px;
+      color: white;
+      letter-spacing: 0;
+      display: block; }
+  /* line 19, scss/_btg-slide.scss */
+  .fullcontainer_slide-guest .container_fonction p {
+    margin-top: 5px;
+    font-family: Prompt;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    letter-spacing: 0; }
+
 /* element HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
+/* line 28, scss/_btg-slide.scss */
+.fullcontainer_slide-host {
+  position: absolute;
+  left: 1750px; }
+  /* line 31, scss/_btg-slide.scss */
+  .fullcontainer_slide-host.host-nv {
+    top: 295px; }
+  /* line 34, scss/_btg-slide.scss */
+  .fullcontainer_slide-host.host-at {
+    top: 535px; }
+  /* line 37, scss/_btg-slide.scss */
+  .fullcontainer_slide-host p {
+    font-family: Prompt;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    letter-spacing: 1px; }
+    /* line 39, scss/_btg-slide.scss */
+    .fullcontainer_slide-host p strong {
+      font-family: Prompt;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 20px;
+      color: white;
+      letter-spacing: 0;
+      display: block; }
+
+/* element TIMER
+------------------------------------------------------------------------------------------------------------------------------------ */
+/* line 5, scss/_btg-pause.scss */
+.fullcontainer_pause-title {
+  position: absolute;
+  top: 510px;
+  width: 100%; }
+  /* line 9, scss/_btg-pause.scss */
+  .fullcontainer_pause-title .container_texte {
+    text-align: center; }
+    /* line 11, scss/_btg-pause.scss */
+    .fullcontainer_pause-title .container_texte p {
+      font-family: Prompt;
+      font-weight: 900;
+      font-size: 240px;
+      line-height: 15px;
+      color: white;
+      letter-spacing: 0; }

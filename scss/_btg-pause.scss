@@ -1,0 +1,15 @@
+// behindthegames PAUSE
+
+/* element TIMER
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_pause-title {
+  position: absolute;
+  top: 510px;
+  width: 100%;
+  .container_texte {
+    text-align: center;
+    p {
+      @include font(Prompt,900,240px,15px,$color_white,0);
+    }
+  }
+}

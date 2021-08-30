@@ -34,8 +34,27 @@
   }
 }
 
+/* element HOST HOST
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_global-host-host {
+  position: absolute;
+  top: 780px;
+  &.host-nv {
+    left: 590px;
+  }
+  &.host-at {
+    left: 1525px;
+  }
+  p {
+    @include font(Prompt,400,35px,35px,$color_white,1px);
+    strong {
+      @include font(Prompt,900,35px,35px,$color_white,0);
+      display: block;
+    }
+  }
+}
 
-/* element GUEST
+/* element GUEST HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
 .fullcontainer_global-guest, .fullcontainer_global-host {
   position: absolute;
@@ -64,19 +83,35 @@
     top: 730px;
   }
   &.host-at {
-    top: 972px;
+    top: 970px;
   }
+  p {
+    @include font(Prompt,400,20px,20px,$color_white,1px);
+    strong {
+      @include font(Prompt,900,20px,20px,$color_white,0);
+      display: block;
+    }
+  }
+}
+.fullcontainer_global-host-guest {
+  position: absolute;
+  right: 95px;
+  bottom: 100px;
+  .container_name {
     p {
-      @include font(Prompt,400,20px,20px,$color_white,1px);
+      @include font(Prompt,400,25px,30px,$color_white,1px);
       strong {
-        @include font(Prompt,900,20px,20px,$color_white,0);
+        @include font(Prompt,900,25px,30px,$color_white,0);
         display: block;
       }
     }
+  }
+  .container_fonction {
+    p {
+      margin-top: 5px;
+      @include font(Prompt,200,18px,20px,$color_white,0);
+    }
+  }
 }
-
-/* element HOST
------------------------------------------------------------------------------------------------------------------------------------- */
-
 
 

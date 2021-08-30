@@ -1,0 +1,45 @@
+// behindthegames SLIDE
+
+/* element GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_slide-guest {
+  position: absolute;
+  right: 95px;
+  bottom: 100px;
+  .container_name {
+    p {
+      @include font(Prompt,400,25px,30px,$color_white,1px);
+      strong {
+        @include font(Prompt,900,25px,30px,$color_white,0);
+        display: block;
+      }
+    }
+  }
+  .container_fonction {
+    p {
+      margin-top: 5px;
+      @include font(Prompt,200,18px,20px,$color_white,0);
+    }
+  }
+}
+
+/* element HOST
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_slide-host {
+  position: absolute;
+  left: 1750px;
+  &.host-nv {
+    top: 295px;
+  }
+  &.host-at {
+    top: 535px;
+  }
+  p {
+    @include font(Prompt,400,20px,20px,$color_white,1px);
+    strong {
+      @include font(Prompt,900,20px,20px,$color_white,0);
+      display: block;
+    }
+  }
+}
+
