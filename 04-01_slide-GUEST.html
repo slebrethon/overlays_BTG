@@ -4,15 +4,16 @@
 <meta charset="utf-8">
 <title>behindthegames_GUEST</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script src="js/btg_variable.js"></script>
 </head>
   
 <body>
   <div class="fullcontainer_slide-guest">
-    <div class="container_name">
-      <p>Lucie <strong>DUGAND</strong></p>
-    </div>
-    <div class="container_fonction">
-      <p>Lead World Designer chez Ubisoft Stockholm</p>
+    <div class="container">
+      <div class="host-guest">
+        <p class="text_name"><script>document.write(guest_firstname);</script> <strong><script>document.write(guest_lastname);</script></strong></p>
+        <p class="text_fonction"><script>document.write(guest_job);</script></p>
+      </div>
     </div>
   </div>
 </body>

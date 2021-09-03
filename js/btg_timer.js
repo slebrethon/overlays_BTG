@@ -1,7 +1,7 @@
 // timer BEHINDTHEGAME
 
 // selection DATE
-var countDownDate = new Date("Aug 21, 2021 16:30:00").getTime();
+var countDownDate = new Date("Sep 02, 2021 17:20:00 GMT+00:00").getTime();
 
 // calcul TIMER
 var x = setInterval(function() {
@@ -15,7 +15,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // nomenclature TIMER
-//  document.getElementById("decounter").innerHTML = days + "" + hours + "" + minutes + ":" + seconds + "";
+  // document.getElementById("decounter").innerHTML = days + "" + hours + "" + minutes + ":" + seconds + "";
   document.getElementById("decounter").innerHTML = minutes + ":" + seconds + "";
     
   // affichage EXPIRE 

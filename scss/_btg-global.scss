@@ -37,16 +37,32 @@
 /* element HOST HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
 .fullcontainer_global-host-host {
-  position: absolute;
-  top: 780px;
-  &.host-nv {
-    left: 590px;
-  }
-  &.host-at {
-    left: 1525px;
+  display: block;
+  width: 1920px;
+  height: 1080px;
+  .container {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    &.host-nv {
+      p {
+        background-position: 195px 10px;
+        right: 955px;
+      }
+    } 
+    &.host-at {
+      p {
+        background-position: 195px -140px;
+        right: 30px;
+      }
+    }  
   }
   p {
+    padding: 25px 120px 25px 20px;
+    background: url("img/btg_background-host.png") no-repeat $color_blue;
     @include font(Prompt,400,35px,35px,$color_white,1px);
+    position: absolute;
+    top: 760px;
     strong {
       @include font(Prompt,900,35px,35px,$color_white,0);
       display: block;
@@ -76,40 +92,69 @@
     }
   }
 }
+
 .fullcontainer_global-guest-host {
-  position: absolute;
-  left: 1750px;
-  &.host-nv {
-    top: 730px;
-  }
-  &.host-at {
-    top: 970px;
+  display: block;
+  width: 1920px;
+  height: 1080px;
+  border: 1px solid black;
+  .container {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    &.host-nv {
+      p {
+        background-position: 150px -20px;
+        top: 700px;
+        right: 0;
+      }
+    }
+    &.host-at {
+      p {
+        background-position: 150px -145px;
+        top: 940px;
+        right: 0; 
+      }
+    }
   }
   p {
+    padding: 25px 120px 25px 20px;
+    background: url("img/btg_background-host.png") no-repeat $color_blue;
     @include font(Prompt,400,20px,20px,$color_white,1px);
+    position: absolute;
     strong {
       @include font(Prompt,900,20px,20px,$color_white,0);
       display: block;
     }
   }
 }
+
 .fullcontainer_global-host-guest {
-  position: absolute;
-  right: 95px;
-  bottom: 100px;
-  .container_name {
-    p {
-      @include font(Prompt,400,25px,30px,$color_white,1px);
-      strong {
-        @include font(Prompt,900,25px,30px,$color_white,0);
-        display: block;
+  display: block;
+  width: 1920px;
+  height: 1080px;
+  .container {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    .host-guest {
+      padding: 25px 120px 25px 20px;
+      background: url("img/btg_background-guest.png") no-repeat $color-green;
+      background-position: 450px -20px;
+      position: absolute;
+      right: 0;
+      bottom: 100px;
+      p.text_name {
+        @include font(Prompt,400,25px,25px,$color_white,1px);
+        strong {
+          @include font(Prompt,900,25px,25px,$color_white,0);
+          display: block;
+        }
       }
-    }
-  }
-  .container_fonction {
-    p {
-      margin-top: 5px;
-      @include font(Prompt,200,18px,20px,$color_white,0);
+      p.text_fonction {
+        margin-top: 5px;
+        @include font(Prompt,200,18px,18px,$color_white,0);
+      }
     }
   }
 }

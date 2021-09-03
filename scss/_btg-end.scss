@@ -1,8 +1,28 @@
 // behindthegames END
 
-/* element TIMER
+/* element TEXTE
 ------------------------------------------------------------------------------------------------------------------------------------ */
-.fullcontainer_pause-title {
-  text-align: center;
-  width: 100%;
+.fullcontainer_end-title {
+  display: block;
+  width: 1920px;
+  height: 1080px;
+  border: 1px solid black;
+  .container {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    text-align: center;
+    img {
+      margin-top: 240px;
+      margin-bottom: 50px
+    }
+    p {
+      @include font(Prompt,900,240px,50px,$color_white,0);
+      width: 100%;
+      .end_subtitle {
+        margin-left: 200px;
+        @include font(Prompt,200,20px,50px,$color_white,3px);
+      }
+    }
+  }
 }

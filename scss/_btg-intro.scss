@@ -46,7 +46,7 @@
     }
     .container_fonction {
       p {
-        @include font(Prompt,200,25px,25px,$color_white,0);
+        @include font(Prompt,200,25px,35px,$color_white,0);
       }
     }
   }
@@ -55,17 +55,25 @@
 /* element ORGA
 ------------------------------------------------------------------------------------------------------------------------------------ */
 .fullcontainer_intro-orga {
-  position: absolute;
-  bottom: 110px;
-  right: 95px;
-  .container_orga {
-    .orga_title {
-      @include font(Prompt,100,25px,25px,$color_white,0);
-    }
-    p {
-      @include font(Prompt,400,30px,30px,$color_white,0);
-      strong {
-        @include font(Prompt,900,30px,30px,$color_white,0);
+  display: block;
+  width: 1920px;
+  height: 1080px;
+  .container {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    &.orga {
+      p {
+        @include font(Prompt,400,30px,35px,$color_white,0);
+        position: absolute;
+        bottom: 110px;
+        right: 95px;
+        strong {
+          @include font(Prompt,900,30px,30px,$color_white,0);
+        }
+        .orga_title {
+          @include font(Prompt,100,25px,25px,$color_white,0);
+        }
       }
     }
   }
