@@ -190,11 +190,32 @@ body {
   bottom: 20px;
   left: 95px; }
   /* line 32, scss/_btg-intro.scss */
+  .fullcontainer_intro-guest .container_picture {
+    display: block;
+    width: 308px;
+    height: 308px; }
+    /* line 36, scss/_btg-intro.scss */
+    .fullcontainer_intro-guest .container_picture:after {
+      content: '';
+      background: url("img/btg_canvas-guest.png") no-repeat;
+      position: absolute;
+      top: 0;
+      display: block;
+      width: 308px;
+      height: 308px; }
+    /* line 45, scss/_btg-intro.scss */
+    .fullcontainer_intro-guest .container_picture img {
+      -webkit-mask-image: url(img/btg_masque-guest.png);
+      mask-image: url(img/btg_masque-guest.png);
+      display: block;
+      width: 308px;
+      height: 308px; }
+  /* line 53, scss/_btg-intro.scss */
   .fullcontainer_intro-guest .container_title {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-    /* line 37, scss/_btg-intro.scss */
+    /* line 58, scss/_btg-intro.scss */
     .fullcontainer_intro-guest .container_title .container_name p {
       font-family: Prompt;
       font-weight: 200;
@@ -202,7 +223,7 @@ body {
       line-height: 35px;
       color: white;
       letter-spacing: 0; }
-      /* line 39, scss/_btg-intro.scss */
+      /* line 60, scss/_btg-intro.scss */
       .fullcontainer_intro-guest .container_title .container_name p span {
         font-family: Prompt;
         font-weight: 200;
@@ -210,7 +231,7 @@ body {
         line-height: 35px;
         color: white;
         letter-spacing: 0; }
-        /* line 41, scss/_btg-intro.scss */
+        /* line 62, scss/_btg-intro.scss */
         .fullcontainer_intro-guest .container_title .container_name p span strong {
           font-family: Prompt;
           font-weight: 900;
@@ -218,7 +239,7 @@ body {
           line-height: 35px;
           color: white;
           letter-spacing: 0; }
-    /* line 48, scss/_btg-intro.scss */
+    /* line 69, scss/_btg-intro.scss */
     .fullcontainer_intro-guest .container_title .container_fonction p {
       font-family: Prompt;
       font-weight: 200;
@@ -229,17 +250,17 @@ body {
 
 /* element ORGA
 ------------------------------------------------------------------------------------------------------------------------------------ */
-/* line 57, scss/_btg-intro.scss */
+/* line 78, scss/_btg-intro.scss */
 .fullcontainer_intro-orga {
   display: block;
   width: 1920px;
   height: 1080px; }
-  /* line 61, scss/_btg-intro.scss */
+  /* line 82, scss/_btg-intro.scss */
   .fullcontainer_intro-orga .container {
     position: absolute;
     width: 1920px;
     height: 1080px; }
-    /* line 66, scss/_btg-intro.scss */
+    /* line 87, scss/_btg-intro.scss */
     .fullcontainer_intro-orga .container.orga p {
       font-family: Prompt;
       font-weight: 400;
@@ -250,7 +271,7 @@ body {
       position: absolute;
       bottom: 110px;
       right: 95px; }
-      /* line 71, scss/_btg-intro.scss */
+      /* line 92, scss/_btg-intro.scss */
       .fullcontainer_intro-orga .container.orga p strong {
         font-family: Prompt;
         font-weight: 900;
@@ -258,7 +279,7 @@ body {
         line-height: 30px;
         color: white;
         letter-spacing: 0; }
-      /* line 74, scss/_btg-intro.scss */
+      /* line 95, scss/_btg-intro.scss */
       .fullcontainer_intro-orga .container.orga p .orga_title {
         font-family: Prompt;
         font-weight: 100;
