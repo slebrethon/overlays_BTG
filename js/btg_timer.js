@@ -1,7 +1,7 @@
 // timer BEHINDTHEGAME
 
 // selection DATE
-var countDownDate = new Date("Sep 02, 2021 17:20:00 GMT+00:00").getTime();
+var countDownDate = new Date("Sep 20, 2021 21:50:00 GMT+00:00").getTime();
 
 // calcul TIMER
 var x = setInterval(function() {

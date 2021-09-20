@@ -4,6 +4,7 @@
 var guest_firstname = "Lucie"
 var guest_lastname = "DUGAND"
 var guest_job = "Lead World Designer chez Ubisoft Stockholm"
+var guest_timer = "début du stream dans"
 
 // variable HOST
 var host_orga = "animée par"
