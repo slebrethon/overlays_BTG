@@ -4,7 +4,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------ */
 $color_white: rgb(255,255,255);
 $color_black: rgb(0,0,0);
-$color_blue: rgb(20,60,100);
+$color_blue: rgb(15,60,95);
 $color_green: rgb(80,160,145);
 
 
@@ -21,6 +21,19 @@ $color_green: rgb(80,160,145);
   margin-bottom: $margbottom;
   margin-left: $margleft;
   margin-right: $margright;
+}
+@mixin content($background,$display,$width,$height) {
+	background: $background;
+  display: $display;
+  width: $width;
+  height: $height;
+}
+@mixin position($position,$top,$bottom,$left,$right) {
+	position: $position;
+	top: $top;
+  bottom: $bottom;
+  left: $left;
+  right: $right;
 }
 @mixin font($fontfamily,$fontweight,$fontsize,$fontline,$fontcolor,$fontspacer) {
   font-family: $fontfamily;
@@ -46,4 +59,65 @@ body {
   width: 1920px;
   height: 1080px;
   overflow: hidden;
+	
+	border: 1px solid black;
+	
 }
+.container_guest {
+	@include padding(55px,0,95px,0);
+	h1 {
+		@include font(Prompt,200,30px,40px,$color_white,0);
+		.last_name {
+			@include font(Prompt,900,40px,40px,$color_white,0);
+			text-transform: uppercase;
+		}
+	}
+	p {
+		@include font(Prompt,200,20px,20px,$color_white,0);
+		opacity: 0.5;
+	}
+}
+
+
+/* element INTRO - HOST
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_intro {
+	@include content($color_blue,block,1920px,1080px);
+	.container_host {
+		@include content($color_green,block,805px,auto);
+		@include padding(30px,30px,60px,0);
+		&.left_host {
+			@include position(absolute,682px,auto,100px,auto); 
+		}
+		&.rigth_host {
+			@include position(absolute,802px,auto,965px,auto); 
+		}
+		h2 {
+			@include font(Prompt,200,25px,30px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,30px,30px,$color_white,0);
+				text-transform: uppercase;
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,20px,20px,$color_white,0);
+			opacity: 0.5;
+		}
+	}
+}
+
+
+/* element DUO - HOST & GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_duo {
+	@include content($color_blue,block,1920px,1080px);
+}
+
+
+/* element TRIO - HOST & GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+/* element TRIO - HOST & GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */

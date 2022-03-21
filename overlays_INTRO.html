@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>behindthegames_INTRO</title>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script src="js/btg_variable.js"></script>
+</head>
+  
+<body>
+  <div class="fullcontainer_intro">
+		<!-- bloc HEADER GUEST -->
+    <div class="container_guest">
+			<h1>
+				<script>document.write(guest_firstname);</script>
+				<span class="last_name"><script>document.write(guest_lastname);</script></span>
+			</h1>
+			<p>
+				<script>document.write(guest_job);</script>
+			</p>
+		</div>
+		
+		<!-- bloc HOST LEFT -->
+    <div class="container_host left_host">
+      <h2>
+				<script>document.write(host_01_firstname);</script>
+				<span class="last_name"><script>document.write(host_02_lastname);</script></span>
+			</h2>
+			<p>
+				<script>document.write(host_title);</script>
+			</p>
+    </div>
+		
+		<!-- bloc HOST RIGHT -->
+		<div class="container_host rigth_host">
+      <h2>
+				<script>document.write(host_02_firstname);</script>
+				<span class="last_name"><script>document.write(host_02_lastname);</script></span>
+			</h2>
+			<p>
+				<script>document.write(host_title);</script>
+			</p>
+    </div>
+  </div>
+	
+</body>
+</html>
