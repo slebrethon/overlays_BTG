@@ -5,6 +5,7 @@
 $color_white: rgb(255,255,255);
 $color_black: rgb(0,0,0);
 $color_blue: rgb(15,60,95);
+$color_bluelight: rgb(30,80,105);
 $color_green: rgb(80,160,145);
 
 
@@ -23,7 +24,7 @@ $color_green: rgb(80,160,145);
   margin-right: $margright;
 }
 @mixin content($background,$display,$width,$height) {
-	background: $background;
+	background-color: $background;
   display: $display;
   width: $width;
   height: $height;
@@ -63,7 +64,12 @@ body {
 	border: 1px solid black;
 	
 }
-.container_guest {
+h1, h2 {
+	&:first-letter {
+		text-transform: uppercase;
+	}
+}
+.container_title {
 	@include padding(55px,0,95px,0);
 	h1 {
 		@include font(Prompt,200,30px,40px,$color_white,0);
@@ -87,15 +93,15 @@ body {
 		@include content($color_green,block,805px,auto);
 		@include padding(30px,30px,60px,0);
 		&.left_host {
-			@include position(absolute,682px,auto,100px,auto); 
+			@include position(absolute,682px,auto,100px,auto);
 		}
 		&.rigth_host {
-			@include position(absolute,802px,auto,965px,auto); 
+			@include position(absolute,802px,auto,965px,auto);
 		}
 		h2 {
-			@include font(Prompt,200,25px,30px,$color_white,0);
+			@include font(Prompt,200,25px,26px,$color_white,0);
 			.last_name {
-				@include font(Prompt,900,30px,30px,$color_white,0);
+				@include font(Prompt,900,30px,26px,$color_white,0);
 				text-transform: uppercase;
 				display: block;
 			}
@@ -112,11 +118,95 @@ body {
 ------------------------------------------------------------------------------------------------------------------------------------ */
 .fullcontainer_duo {
 	@include content($color_blue,block,1920px,1080px);
+	.container_host {
+		@include content($color_green,block,940px,auto);
+		@include padding(30px,30px,60px,60px);
+		@include position(absolute,840px,auto,auto,auto);
+		h2 {
+			@include font(Prompt,200,40px,42px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,45px,42px,$color_white,0);
+				text-transform: uppercase;
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,25px,30px,$color_white,0);
+			opacity: 0.5;
+		}
+	}
+	.container_guest {
+		@include content($color_bluelight,block,420px,auto);
+		@include padding(30px,30px,60px,60px);
+		@include position(absolute,840px,auto,1382px,auto);
+		background-image: url("img/btg_fond-encart.png");
+		background-repeat: no-repeat;
+		background-position: 145px top;
+		h2 {
+			@include margin(0,5px,0,0);
+			@include font(Prompt,200,20px,24px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,25px,24px,$color_white,0);
+				text-transform: uppercase;
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,18px,20px,$color_white,0);
+			opacity: 0.5;
+		}
+	}
 }
 
 
 /* element TRIO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_trio {
+	@include content($color_blue,block,1920px,1080px);
+	.container_guest {
+		@include content($color_bluelight,block,940px,auto);
+		@include padding(30px,30px,60px,60px);
+		@include position(absolute,840px,auto,auto,auto);
+		background-image: url("img/btg_fond-encart.png");
+		background-repeat: no-repeat;
+		background-position: 250px top;
+		h2 {
+			@include font(Prompt,200,40px,42px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,45px,42px,$color_white,0);
+				text-transform: uppercase;
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,25px,30px,$color_white,0);
+			opacity: 0.5;
+		}
+	}
+	.container_host {
+		@include content($color_green,block,390px,auto);
+		@include padding(25px,25px,45px,45px);
+		&.top_host {
+			@include position(absolute,460px,auto,1442px,auto);
+		}
+		&.bottom_host {
+			@include position(absolute,870px,auto,1442px,auto);
+		}
+		h2 {
+			@include margin(0,5px,0,0);
+			@include font(Prompt,200,20px,24px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,25px,24px,$color_white,0);
+				text-transform: uppercase;
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,18px,15px,$color_white,0);
+			opacity: 0.5;
+		}
+	}
+}
 
 
 /* element TRIO - HOST & GUEST

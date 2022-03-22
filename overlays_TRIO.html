@@ -8,8 +8,7 @@
 </head>
   
 <body>
-  <div class="fullcontainer_intro">
-		
+  <div class="fullcontainer_trio">
 		<!-- bloc HEADER GUEST -->
     <div class="container_title">
 			<h1>
@@ -21,8 +20,19 @@
 			</p>
 		</div>
 		
-		<!-- bloc HOST LEFT -->
-    <div class="container_host left_host">
+		<!-- bloc GUEST -->
+    <div class="container_guest">
+      <h2>
+				<script>document.write(guest_firstname);</script>
+				<span class="last_name"><script>document.write(guest_lastname);</script></span>
+			</h2>
+			<p>
+				<script>document.write(guest_job);</script>
+			</p>
+    </div>
+		
+		<!-- bloc HOST TOP -->
+		<div class="container_host top_host">
       <h2>
 				<script>document.write(host_01_firstname);</script>
 				<span class="last_name"><script>document.write(host_01_lastname);</script></span>
@@ -32,8 +42,8 @@
 			</p>
     </div>
 		
-		<!-- bloc HOST RIGHT -->
-		<div class="container_host rigth_host">
+		<!-- bloc HOST BOTTOM -->
+		<div class="container_host bottom_host">
       <h2>
 				<script>document.write(host_02_firstname);</script>
 				<span class="last_name"><script>document.write(host_02_lastname);</script></span>

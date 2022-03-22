@@ -148,19 +148,22 @@ body {
   overflow: hidden;
   border: 1px solid black; }
 
-.container_guest {
+h1:first-letter, h2:first-letter {
+  text-transform: uppercase; }
+
+.container_title {
   padding-top: 55px;
   padding-bottom: 0;
   padding-left: 95px;
   padding-right: 0; }
-  .container_guest h1 {
+  .container_title h1 {
     font-family: Prompt;
     font-weight: 200;
     font-size: 30px;
     line-height: 40px;
     color: white;
     letter-spacing: 0; }
-    .container_guest h1 .last_name {
+    .container_title h1 .last_name {
       font-family: Prompt;
       font-weight: 900;
       font-size: 40px;
@@ -168,7 +171,7 @@ body {
       color: white;
       letter-spacing: 0;
       text-transform: uppercase; }
-  .container_guest p {
+  .container_title p {
     font-family: Prompt;
     font-weight: 200;
     font-size: 20px;
@@ -180,12 +183,12 @@ body {
 /* element INTRO - HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
 .fullcontainer_intro {
-  background: #0f3c5f;
+  background-color: #0f3c5f;
   display: block;
   width: 1920px;
   height: 1080px; }
   .fullcontainer_intro .container_host {
-    background: #50a091;
+    background-color: #50a091;
     display: block;
     width: 805px;
     height: auto;
@@ -209,14 +212,14 @@ body {
       font-family: Prompt;
       font-weight: 200;
       font-size: 25px;
-      line-height: 30px;
+      line-height: 26px;
       color: white;
       letter-spacing: 0; }
       .fullcontainer_intro .container_host h2 .last_name {
         font-family: Prompt;
         font-weight: 900;
         font-size: 30px;
-        line-height: 30px;
+        line-height: 26px;
         color: white;
         letter-spacing: 0;
         text-transform: uppercase;
@@ -233,12 +236,191 @@ body {
 /* element DUO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
 .fullcontainer_duo {
-  background: #0f3c5f;
+  background-color: #0f3c5f;
   display: block;
   width: 1920px;
   height: 1080px; }
+  .fullcontainer_duo .container_host {
+    background-color: #50a091;
+    display: block;
+    width: 940px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: absolute;
+    top: 840px;
+    bottom: auto;
+    left: auto;
+    right: auto; }
+    .fullcontainer_duo .container_host h2 {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 40px;
+      line-height: 42px;
+      color: white;
+      letter-spacing: 0; }
+      .fullcontainer_duo .container_host h2 .last_name {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 42px;
+        color: white;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        display: block; }
+    .fullcontainer_duo .container_host p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 25px;
+      line-height: 30px;
+      color: white;
+      letter-spacing: 0;
+      opacity: 0.5; }
+  .fullcontainer_duo .container_guest {
+    background-color: #1e5069;
+    display: block;
+    width: 420px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: absolute;
+    top: 840px;
+    bottom: auto;
+    left: 1382px;
+    right: auto;
+    background-image: url("img/btg_fond-encart.png");
+    background-repeat: no-repeat;
+    background-position: 145px top; }
+    .fullcontainer_duo .container_guest h2 {
+      margin-top: 0;
+      margin-bottom: 5px;
+      margin-left: 0;
+      margin-right: 0;
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      letter-spacing: 0; }
+      .fullcontainer_duo .container_guest h2 .last_name {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 24px;
+        color: white;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        display: block; }
+    .fullcontainer_duo .container_guest p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 20px;
+      color: white;
+      letter-spacing: 0;
+      opacity: 0.5; }
 
 /* element TRIO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_trio {
+  background-color: #0f3c5f;
+  display: block;
+  width: 1920px;
+  height: 1080px; }
+  .fullcontainer_trio .container_guest {
+    background-color: #1e5069;
+    display: block;
+    width: 940px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: absolute;
+    top: 840px;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    background-image: url("img/btg_fond-encart.png");
+    background-repeat: no-repeat;
+    background-position: 250px top; }
+    .fullcontainer_trio .container_guest h2 {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 40px;
+      line-height: 42px;
+      color: white;
+      letter-spacing: 0; }
+      .fullcontainer_trio .container_guest h2 .last_name {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 42px;
+        color: white;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        display: block; }
+    .fullcontainer_trio .container_guest p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 25px;
+      line-height: 30px;
+      color: white;
+      letter-spacing: 0;
+      opacity: 0.5; }
+  .fullcontainer_trio .container_host {
+    background-color: #50a091;
+    display: block;
+    width: 390px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    padding-right: 45px; }
+    .fullcontainer_trio .container_host.top_host {
+      position: absolute;
+      top: 460px;
+      bottom: auto;
+      left: 1442px;
+      right: auto; }
+    .fullcontainer_trio .container_host.bottom_host {
+      position: absolute;
+      top: 870px;
+      bottom: auto;
+      left: 1442px;
+      right: auto; }
+    .fullcontainer_trio .container_host h2 {
+      margin-top: 0;
+      margin-bottom: 5px;
+      margin-left: 0;
+      margin-right: 0;
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      letter-spacing: 0; }
+      .fullcontainer_trio .container_host h2 .last_name {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 24px;
+        color: white;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        display: block; }
+    .fullcontainer_trio .container_host p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 15px;
+      color: white;
+      letter-spacing: 0;
+      opacity: 0.5; }
+
 /* element TRIO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */

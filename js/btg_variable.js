@@ -1,14 +1,14 @@
 // variable BEHINDTHEGAME
 
 // variable GUEST
-var guest_firstname = "Léa"
+var guest_firstname = "léa"
 var guest_lastname = "lançon"
 var guest_job = "Concept Artist Freelance & Directrice Artistique chez Prismastone Studio"
 
 // variable HOST
-var host_01_firstname = "Nicolas"
+var host_01_firstname = "nicolas"
 var host_01_lastname = "vienat"
-var host_02_firstname = "Aurélien"
+var host_02_firstname = "aurélien"
 var host_02_lastname = "thazet"
 var host_title = "Behind the games"
 
