@@ -1,24 +1,22 @@
 // variable BEHINDTHEGAME
 
 // variable GUEST
-var guest_firstname = "Lucie"
-var guest_lastname = "DUGAND"
-var guest_job = "Lead World Designer chez Ubisoft Stockholm"
-var guest_timer = "début du stream dans"
+var guest_firstname = "léa"
+var guest_lastname = "lançon"
+var guest_job = "Concept Artist Freelance & Directrice Artistique chez Prismastone Studio"
 
 // variable HOST
-var host_orga = "animée par"
-var host_title = "Behind the games"
-var host_01_firstname = "Nicolas"
-var host_01_lastname = "VIENAT"
-var host_02_firstname = "Aurélien"
-var host_02_lastname = "THAZET"
+var host_01_firstname = "nicolas"
+var host_01_lastname = "vienat"
+var host_02_firstname = "aurélien"
+var host_02_lastname = "thazet"
+var host_title = "Behind The Games"
 
 // variable PAUSE
-var pause_title = "pause"
-var pause_subtitle = "... le live reprend dans quelques minutes."
+var pause_title = "en pause"
+var pause_subtitle = "... problème technique nous revenons dans quelques instants."
 
 // variable END
-var end_title = "c’est fini"
-var end_subtitle = "... merci de nous avoir suivi on se retrouve très vite."
+var end_title = ""
+var end_subtitle = ""
 

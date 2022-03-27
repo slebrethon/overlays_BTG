@@ -1,0 +1,47 @@
+// import VARIABLES & MIXINS
+
+/* element VARIABLES
+------------------------------------------------------------------------------------------------------------------------------------ */
+$color_white: rgb(255,255,255);
+$color_black: rgb(0,0,0);
+$color_blue: rgb(15,60,95);
+$color_bluelight: rgb(30,80,105);
+$color_green: rgb(80,160,145);
+$opacity: 0.7;
+
+/* element MIXIN
+------------------------------------------------------------------------------------------------------------------------------------ */
+@mixin padding($padtop,$padbottom,$padleft,$padright) {
+  padding-top: $padtop;
+  padding-bottom: $padbottom;
+  padding-left: $padleft;
+  padding-right: $padright;
+}
+@mixin margin($margtop,$margbottom,$margleft,$margright) {
+  margin-top: $margtop;
+  margin-bottom: $margbottom;
+  margin-left: $margleft;
+  margin-right: $margright;
+}
+@mixin content($background,$display,$width,$height) {
+	background-color: $background;
+	background-image: url("img/btg_fond-ecran.png");
+  display: $display;
+  width: $width;
+  height: $height;
+}
+@mixin position($position,$top,$bottom,$left,$right) {
+	position: $position;
+	top: $top;
+  bottom: $bottom;
+  left: $left;
+  right: $right;
+}
+@mixin font($fontfamily,$fontweight,$fontsize,$fontline,$fontcolor,$fontspacer) {
+  font-family: $fontfamily;
+  font-weight: $fontweight;
+  font-size: $fontsize;
+  line-height: $fontline;
+  color: $fontcolor;
+  letter-spacing: $fontspacer;
+}

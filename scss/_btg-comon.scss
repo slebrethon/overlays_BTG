@@ -1,36 +1,4 @@
-// import COMMUN
-
-/* element VARIABLES
------------------------------------------------------------------------------------------------------------------------------------- */
-$color_white: rgb(255,255,255);
-$color_black: rgb(0,0,0);
-$color_blue: rgb(20,60,100);
-$color_green: rgb(80,160,145);
-
-
-/* element MIXIN
------------------------------------------------------------------------------------------------------------------------------------- */
-@mixin padding($padtop,$padbottom,$padleft,$padright) {
-  padding-top: $padtop;
-  padding-bottom: $padbottom;
-  padding-left: $padleft;
-  padding-right: $padright;
-}
-@mixin margin($margtop,$margbottom,$margleft,$margright) {
-  margin-top: $margtop;
-  margin-bottom: $margbottom;
-  margin-left: $margleft;
-  margin-right: $margright;
-}
-@mixin font($fontfamily,$fontweight,$fontsize,$fontline,$fontcolor,$fontspacer) {
-  font-family: $fontfamily;
-  font-weight: $fontweight;
-  font-size: $fontsize;
-  line-height: $fontline;
-  color: $fontcolor;
-  letter-spacing: $fontspacer;
-}
-
+// import COMON
 
 /* element GLOBAL
 ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -46,4 +14,218 @@ body {
   width: 1920px;
   height: 1080px;
   overflow: hidden;
+}
+h1, h2 {
+	&:first-letter {
+		text-transform: uppercase;
+	}
+}
+.last_name {
+	text-transform: uppercase;
+}
+.container_title {
+	@include padding(55px,0,95px,0);
+	position: absolute;
+	h1 {
+		@include font(Prompt,200,30px,40px,$color_white,0);
+		.last_name {
+			@include font(Prompt,900,40px,40px,$color_white,0);
+		}
+	}
+	p {
+		@include font(Prompt,200,20px,20px,$color_white,0);
+		opacity: $opacity;
+	}
+}
+.fullcontainer {
+	@include content($color_blue,block,1920px,1080px);
+}
+
+/* element PAUSE
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.wait {
+	.container_wait {
+		display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1080px;
+		h1 {
+			@include font(Prompt,900,200px,160px,$color_white,0);
+			text-transform: uppercase;
+		}
+		p {
+			@include margin(0,0,auto,auto);
+			@include font(Prompt,200,40px,40px,$color_white,0);
+			@include content(transparent,block,1600px,auto);
+			text-align: center;
+		}
+	}
+	.container_lyongamedev {
+		@include position(absolute,856px,auto,1614px,auto);
+	}
+}
+
+/* element INTRO - HOST
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.intro {
+	.container_host {
+		@include content($color_green,block,805px,auto);
+		@include padding(30px,30px,60px,0);
+		&.left_host {
+			@include position(absolute,682px,auto,100px,auto);
+		}
+		&.rigth_host {
+			@include position(absolute,802px,auto,965px,auto);
+		}
+		h2 {
+			@include font(Prompt,200,25px,26px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,30px,26px,$color_white,0);
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,20px,20px,$color_white,0);
+			opacity: $opacity;
+		}
+	}
+}
+
+
+/* element DUO - HOST & GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.duo {
+	.container_host {
+		@include content($color_green,block,940px,auto);
+		@include padding(30px,30px,60px,60px);
+		@include position(absolute,840px,auto,auto,auto);
+		h2 {
+			@include font(Prompt,200,40px,42px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,45px,42px,$color_white,0);
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,25px,30px,$color_white,0);
+			opacity: $opacity;
+		}
+	}
+	.container_guest {
+		@include content($color_bluelight,block,420px,auto);
+		@include padding(30px,30px,60px,60px);
+		@include position(absolute,840px,auto,1382px,auto);
+		background-image: url("img/btg_fond-encart.png");
+		background-repeat: no-repeat;
+		background-position: 145px top;
+		h2 {
+			@include margin(0,3px,0,0);
+			@include font(Prompt,200,20px,24px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,25px,24px,$color_white,0);
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,18px,20px,$color_white,0);
+			opacity: $opacity;
+		}
+	}
+}
+
+
+/* element TRIO - HOST & GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.trio {
+	.container_guest {
+		@include content($color_bluelight,block,940px,auto);
+		@include padding(30px,30px,60px,60px);
+		@include position(absolute,840px,auto,auto,auto);
+		background-image: url("img/btg_fond-encart.png");
+		background-repeat: no-repeat;
+		background-position: 250px top;
+		h2 {
+			@include font(Prompt,200,40px,42px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,45px,42px,$color_white,0);
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,25px,30px,$color_white,0);
+			opacity: $opacity;
+		}
+	}
+	.container_host {
+		@include content($color_green,block,390px,auto);
+		@include padding(25px,25px,45px,45px);
+		&.top_host {
+			@include position(absolute,460px,auto,1442px,auto);
+		}
+		&.bottom_host {
+			@include position(absolute,870px,auto,1442px,auto);
+		}
+		h2 {
+			@include margin(0,3px,0,0);
+			@include font(Prompt,200,20px,24px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,25px,24px,$color_white,0);
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,18px,15px,$color_white,0);
+			opacity: $opacity;
+		}
+	}
+}
+
+
+/* element ASSETS - HOST & GUEST & ASSETS
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.assets {
+	@include content($color_blue,block,1920px,1080px);
+	.container_host {
+		@include content($color_green,block,290px,auto);
+		@include padding(25px,25px,45px,45px);
+		&.top_host {
+			@include position(absolute,260px,auto,1540px,auto);
+		}
+		&.bottom_host {
+			@include position(absolute,580px,auto,1540px,auto);
+		}
+		h2 {
+			@include margin(0,3px,0,0);
+			@include font(Prompt,200,20px,24px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,25px,24px,$color_white,0);
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,18px,15px,$color_white,0);
+			opacity: $opacity;
+		}
+	}
+	.container_guest {
+		@include content($color_bluelight,block,290px,auto);
+		@include padding(25px,25px,45px,45px);
+		@include position(absolute,900px,auto,1540px,auto);
+		background-image: url("img/btg_fond-encart.png");
+		background-repeat: no-repeat;
+		background-position: 80px top;
+		h2 {
+			@include margin(0,5px,0,0);
+			@include font(Prompt,200,20px,24px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,25px,24px,$color_white,0);
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,18px,18px,$color_white,0);
+			opacity: $opacity;
+		}
+	}
 }
