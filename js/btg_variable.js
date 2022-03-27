@@ -10,13 +10,13 @@ var host_01_firstname = "nicolas"
 var host_01_lastname = "vienat"
 var host_02_firstname = "aurélien"
 var host_02_lastname = "thazet"
-var host_title = "Behind the games"
+var host_title = "Behind The Games"
 
 // variable PAUSE
-var pause_title = "pause"
-var pause_subtitle = "... le live reprend dans quelques minutes."
+var pause_title = "en pause"
+var pause_subtitle = "... problème technique nous revenons dans quelques instants."
 
 // variable END
-var end_title = "c’est fini"
-var end_subtitle = "... merci de nous avoir suivi on se retrouve très vite."
+var end_title = ""
+var end_subtitle = ""
 

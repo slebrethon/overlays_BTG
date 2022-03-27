@@ -1,50 +1,4 @@
-// import COMMUN
-
-/* element VARIABLES
------------------------------------------------------------------------------------------------------------------------------------- */
-$color_white: rgb(255,255,255);
-$color_black: rgb(0,0,0);
-$color_blue: rgb(15,60,95);
-$color_bluelight: rgb(30,80,105);
-$color_green: rgb(80,160,145);
-
-
-/* element MIXIN
------------------------------------------------------------------------------------------------------------------------------------- */
-@mixin padding($padtop,$padbottom,$padleft,$padright) {
-  padding-top: $padtop;
-  padding-bottom: $padbottom;
-  padding-left: $padleft;
-  padding-right: $padright;
-}
-@mixin margin($margtop,$margbottom,$margleft,$margright) {
-  margin-top: $margtop;
-  margin-bottom: $margbottom;
-  margin-left: $margleft;
-  margin-right: $margright;
-}
-@mixin content($background,$display,$width,$height) {
-	background-color: $background;
-  display: $display;
-  width: $width;
-  height: $height;
-}
-@mixin position($position,$top,$bottom,$left,$right) {
-	position: $position;
-	top: $top;
-  bottom: $bottom;
-  left: $left;
-  right: $right;
-}
-@mixin font($fontfamily,$fontweight,$fontsize,$fontline,$fontcolor,$fontspacer) {
-  font-family: $fontfamily;
-  font-weight: $fontweight;
-  font-size: $fontsize;
-  line-height: $fontline;
-  color: $fontcolor;
-  letter-spacing: $fontspacer;
-}
-
+// import COMON
 
 /* element GLOBAL
 ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -60,35 +14,61 @@ body {
   width: 1920px;
   height: 1080px;
   overflow: hidden;
-	
-	border: 1px solid black;
-	
 }
 h1, h2 {
 	&:first-letter {
 		text-transform: uppercase;
 	}
 }
+.last_name {
+	text-transform: uppercase;
+}
 .container_title {
 	@include padding(55px,0,95px,0);
+	position: absolute;
 	h1 {
 		@include font(Prompt,200,30px,40px,$color_white,0);
 		.last_name {
 			@include font(Prompt,900,40px,40px,$color_white,0);
-			text-transform: uppercase;
 		}
 	}
 	p {
 		@include font(Prompt,200,20px,20px,$color_white,0);
-		opacity: 0.5;
+		opacity: $opacity;
+	}
+}
+.fullcontainer {
+	@include content($color_blue,block,1920px,1080px);
+}
+
+/* element PAUSE
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.wait {
+	.container_wait {
+		display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1080px;
+		h1 {
+			@include font(Prompt,900,200px,160px,$color_white,0);
+			text-transform: uppercase;
+		}
+		p {
+			@include margin(0,0,auto,auto);
+			@include font(Prompt,200,40px,40px,$color_white,0);
+			@include content(transparent,block,1600px,auto);
+			text-align: center;
+		}
+	}
+	.container_lyongamedev {
+		@include position(absolute,856px,auto,1614px,auto);
 	}
 }
 
-
 /* element INTRO - HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
-.fullcontainer_intro {
-	@include content($color_blue,block,1920px,1080px);
+.fullcontainer.intro {
 	.container_host {
 		@include content($color_green,block,805px,auto);
 		@include padding(30px,30px,60px,0);
@@ -102,13 +82,12 @@ h1, h2 {
 			@include font(Prompt,200,25px,26px,$color_white,0);
 			.last_name {
 				@include font(Prompt,900,30px,26px,$color_white,0);
-				text-transform: uppercase;
 				display: block;
 			}
 		}
 		p {
 			@include font(Prompt,200,20px,20px,$color_white,0);
-			opacity: 0.5;
+			opacity: $opacity;
 		}
 	}
 }
@@ -116,8 +95,7 @@ h1, h2 {
 
 /* element DUO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
-.fullcontainer_duo {
-	@include content($color_blue,block,1920px,1080px);
+.fullcontainer.duo {
 	.container_host {
 		@include content($color_green,block,940px,auto);
 		@include padding(30px,30px,60px,60px);
@@ -126,13 +104,12 @@ h1, h2 {
 			@include font(Prompt,200,40px,42px,$color_white,0);
 			.last_name {
 				@include font(Prompt,900,45px,42px,$color_white,0);
-				text-transform: uppercase;
 				display: block;
 			}
 		}
 		p {
 			@include font(Prompt,200,25px,30px,$color_white,0);
-			opacity: 0.5;
+			opacity: $opacity;
 		}
 	}
 	.container_guest {
@@ -143,17 +120,16 @@ h1, h2 {
 		background-repeat: no-repeat;
 		background-position: 145px top;
 		h2 {
-			@include margin(0,5px,0,0);
+			@include margin(0,3px,0,0);
 			@include font(Prompt,200,20px,24px,$color_white,0);
 			.last_name {
 				@include font(Prompt,900,25px,24px,$color_white,0);
-				text-transform: uppercase;
 				display: block;
 			}
 		}
 		p {
 			@include font(Prompt,200,18px,20px,$color_white,0);
-			opacity: 0.5;
+			opacity: $opacity;
 		}
 	}
 }
@@ -161,8 +137,7 @@ h1, h2 {
 
 /* element TRIO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
-.fullcontainer_trio {
-	@include content($color_blue,block,1920px,1080px);
+.fullcontainer.trio {
 	.container_guest {
 		@include content($color_bluelight,block,940px,auto);
 		@include padding(30px,30px,60px,60px);
@@ -174,13 +149,12 @@ h1, h2 {
 			@include font(Prompt,200,40px,42px,$color_white,0);
 			.last_name {
 				@include font(Prompt,900,45px,42px,$color_white,0);
-				text-transform: uppercase;
 				display: block;
 			}
 		}
 		p {
 			@include font(Prompt,200,25px,30px,$color_white,0);
-			opacity: 0.5;
+			opacity: $opacity;
 		}
 	}
 	.container_host {
@@ -193,21 +167,65 @@ h1, h2 {
 			@include position(absolute,870px,auto,1442px,auto);
 		}
 		h2 {
-			@include margin(0,5px,0,0);
+			@include margin(0,3px,0,0);
 			@include font(Prompt,200,20px,24px,$color_white,0);
 			.last_name {
 				@include font(Prompt,900,25px,24px,$color_white,0);
-				text-transform: uppercase;
 				display: block;
 			}
 		}
 		p {
 			@include font(Prompt,200,18px,15px,$color_white,0);
-			opacity: 0.5;
+			opacity: $opacity;
 		}
 	}
 }
 
 
-/* element TRIO - HOST & GUEST
+/* element ASSETS - HOST & GUEST & ASSETS
 ------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.assets {
+	@include content($color_blue,block,1920px,1080px);
+	.container_host {
+		@include content($color_green,block,290px,auto);
+		@include padding(25px,25px,45px,45px);
+		&.top_host {
+			@include position(absolute,260px,auto,1540px,auto);
+		}
+		&.bottom_host {
+			@include position(absolute,580px,auto,1540px,auto);
+		}
+		h2 {
+			@include margin(0,3px,0,0);
+			@include font(Prompt,200,20px,24px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,25px,24px,$color_white,0);
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,18px,15px,$color_white,0);
+			opacity: $opacity;
+		}
+	}
+	.container_guest {
+		@include content($color_bluelight,block,290px,auto);
+		@include padding(25px,25px,45px,45px);
+		@include position(absolute,900px,auto,1540px,auto);
+		background-image: url("img/btg_fond-encart.png");
+		background-repeat: no-repeat;
+		background-position: 80px top;
+		h2 {
+			@include margin(0,5px,0,0);
+			@include font(Prompt,200,20px,24px,$color_white,0);
+			.last_name {
+				@include font(Prompt,900,25px,24px,$color_white,0);
+				display: block;
+			}
+		}
+		p {
+			@include font(Prompt,200,18px,18px,$color_white,0);
+			opacity: $opacity;
+		}
+	}
+}
