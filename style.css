@@ -157,8 +157,7 @@ h1:first-letter, h2:first-letter {
   padding-top: 55px;
   padding-bottom: 0;
   padding-left: 95px;
-  padding-right: 0;
-  position: absolute; }
+  padding-right: 0; }
   .container_title h1 {
     font-family: Prompt;
     font-weight: 200;
@@ -184,190 +183,162 @@ h1:first-letter, h2:first-letter {
 
 .fullcontainer {
   background-color: #0f3c5f;
-  background-image: url("img/btg_fond-ecran.png");
+  background-image: url("../img/btg_fond-ecran.png");
   display: block;
   width: 1920px;
   height: 1080px; }
 
-/* element PAUSE
------------------------------------------------------------------------------------------------------------------------------------- */
-.fullcontainer.wait .container_wait {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 1080px; }
-  .fullcontainer.wait .container_wait h1 {
-    font-family: Prompt;
-    font-weight: 900;
-    font-size: 200px;
-    line-height: 160px;
-    color: white;
-    letter-spacing: 0;
-    text-transform: uppercase; }
-  .fullcontainer.wait .container_wait p {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 40px;
-    line-height: 40px;
-    color: white;
-    letter-spacing: 0;
-    background-color: transparent;
-    background-image: url("img/btg_fond-ecran.png");
-    display: block;
-    width: 1600px;
-    height: auto;
-    text-align: center; }
-.fullcontainer.wait .container_lyongamedev {
-  position: absolute;
-  top: 856px;
-  bottom: auto;
-  left: 1614px;
-  right: auto; }
-
 /* element INTRO - HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
-.fullcontainer.intro .container_host {
-  background-color: #50a091;
-  background-image: url("img/btg_fond-ecran.png");
+.fullcontainer_intro {
+  background-color: #0f3c5f;
+  background-image: url("../img/btg_fond-ecran.png");
   display: block;
-  width: 805px;
-  height: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 60px;
-  padding-right: 0; }
-  .fullcontainer.intro .container_host.left_host {
-    position: absolute;
-    top: 682px;
-    bottom: auto;
-    left: 100px;
-    right: auto; }
-  .fullcontainer.intro .container_host.rigth_host {
-    position: absolute;
-    top: 802px;
-    bottom: auto;
-    left: 965px;
-    right: auto; }
-  .fullcontainer.intro .container_host h2 {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 25px;
-    line-height: 26px;
-    color: white;
-    letter-spacing: 0; }
-    .fullcontainer.intro .container_host h2 .last_name {
+  width: 1920px;
+  height: 1080px; }
+  .fullcontainer_intro .container_host {
+    background-color: #50a091;
+    background-image: url("../img/btg_fond-ecran.png");
+    display: block;
+    width: 805px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 0; }
+    .fullcontainer_intro .container_host.left_host {
+      position: absolute;
+      top: 682px;
+      bottom: auto;
+      left: 100px;
+      right: auto; }
+    .fullcontainer_intro .container_host.rigth_host {
+      position: absolute;
+      top: 802px;
+      bottom: auto;
+      left: 965px;
+      right: auto; }
+    .fullcontainer_intro .container_host h2 {
       font-family: Prompt;
-      font-weight: 900;
-      font-size: 30px;
+      font-weight: 200;
+      font-size: 25px;
       line-height: 26px;
       color: white;
+      letter-spacing: 0; }
+      .fullcontainer_intro .container_host h2 .last_name {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 26px;
+        color: white;
+        letter-spacing: 0;
+        display: block; }
+    .fullcontainer_intro .container_host p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 20px;
+      line-height: 20px;
+      color: white;
       letter-spacing: 0;
-      display: block; }
-  .fullcontainer.intro .container_host p {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 20px;
-    color: white;
-    letter-spacing: 0;
-    opacity: 0.7; }
+      opacity: 0.7; }
 
 /* element DUO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
-.fullcontainer.duo .container_host {
-  background-color: #50a091;
-  background-image: url("img/btg_fond-ecran.png");
+.fullcontainer_duo {
+  background-color: #0f3c5f;
+  background-image: url("../img/btg_fond-ecran.png");
   display: block;
-  width: 940px;
-  height: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
-  position: absolute;
-  top: 840px;
-  bottom: auto;
-  left: auto;
-  right: auto; }
-  .fullcontainer.duo .container_host h2 {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 40px;
-    line-height: 42px;
-    color: white;
-    letter-spacing: 0; }
-    .fullcontainer.duo .container_host h2 .last_name {
+  width: 1920px;
+  height: 1080px; }
+  .fullcontainer_duo .container_host {
+    background-color: #50a091;
+    background-image: url("../img/btg_fond-ecran.png");
+    display: block;
+    width: 940px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: absolute;
+    top: 840px;
+    bottom: auto;
+    left: auto;
+    right: auto; }
+    .fullcontainer_duo .container_host h2 {
       font-family: Prompt;
-      font-weight: 900;
-      font-size: 45px;
+      font-weight: 200;
+      font-size: 40px;
       line-height: 42px;
       color: white;
-      letter-spacing: 0;
-      display: block; }
-  .fullcontainer.duo .container_host p {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 25px;
-    line-height: 30px;
-    color: white;
-    letter-spacing: 0;
-    opacity: 0.7; }
-.fullcontainer.duo .container_guest {
-  background-color: #1e5069;
-  background-image: url("img/btg_fond-ecran.png");
-  display: block;
-  width: 420px;
-  height: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
-  position: absolute;
-  top: 840px;
-  bottom: auto;
-  left: 1382px;
-  right: auto;
-  background-image: url("img/btg_fond-encart.png");
-  background-repeat: no-repeat;
-  background-position: 145px top; }
-  .fullcontainer.duo .container_guest h2 {
-    margin-top: 0;
-    margin-bottom: 3px;
-    margin-left: 0;
-    margin-right: 0;
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 24px;
-    color: white;
-    letter-spacing: 0; }
-    .fullcontainer.duo .container_guest h2 .last_name {
+      letter-spacing: 0; }
+      .fullcontainer_duo .container_host h2 .last_name {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 42px;
+        color: white;
+        letter-spacing: 0;
+        display: block; }
+    .fullcontainer_duo .container_host p {
       font-family: Prompt;
-      font-weight: 900;
+      font-weight: 200;
       font-size: 25px;
-      line-height: 24px;
+      line-height: 30px;
       color: white;
       letter-spacing: 0;
-      display: block; }
-  .fullcontainer.duo .container_guest p {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 20px;
-    color: white;
-    letter-spacing: 0;
-    opacity: 0.7; }
+      opacity: 0.7; }
+  .fullcontainer_duo .container_guest {
+    background-color: #1e5069;
+    background-image: url("../img/btg_fond-ecran.png");
+    display: block;
+    width: 420px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: absolute;
+    top: 840px;
+    bottom: auto;
+    left: 1382px;
+    right: auto;
+    background-image: url("img/btg_fond-encart.png");
+    background-repeat: no-repeat;
+    background-position: 145px top; }
+    .fullcontainer_duo .container_guest h2 {
+      margin-top: 0;
+      margin-bottom: 3px;
+      margin-left: 0;
+      margin-right: 0;
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      letter-spacing: 0; }
+      .fullcontainer_duo .container_guest h2 .last_name {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 24px;
+        color: white;
+        letter-spacing: 0;
+        display: block; }
+    .fullcontainer_duo .container_guest p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 20px;
+      color: white;
+      letter-spacing: 0;
+      opacity: 0.7; }
 
 /* element TRIO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
 .fullcontainer.trio .container_guest {
   background-color: #1e5069;
-  background-image: url("img/btg_fond-ecran.png");
+  background-image: url("../img/btg_fond-ecran.png");
   display: block;
   width: 940px;
   height: auto;
@@ -408,7 +379,7 @@ h1:first-letter, h2:first-letter {
     opacity: 0.7; }
 .fullcontainer.trio .container_host {
   background-color: #50a091;
-  background-image: url("img/btg_fond-ecran.png");
+  background-image: url("../img/btg_fond-ecran.png");
   display: block;
   width: 390px;
   height: auto;
@@ -458,15 +429,15 @@ h1:first-letter, h2:first-letter {
 
 /* element ASSETS - HOST & GUEST & ASSETS
 ------------------------------------------------------------------------------------------------------------------------------------ */
-.fullcontainer.assets {
+.fullcontainer_assets {
   background-color: #0f3c5f;
-  background-image: url("img/btg_fond-ecran.png");
+  background-image: url("../img/btg_fond-ecran.png");
   display: block;
   width: 1920px;
   height: 1080px; }
-  .fullcontainer.assets .container_host {
+  .fullcontainer_assets .container_host {
     background-color: #50a091;
-    background-image: url("img/btg_fond-ecran.png");
+    background-image: url("../img/btg_fond-ecran.png");
     display: block;
     width: 290px;
     height: auto;
@@ -474,19 +445,19 @@ h1:first-letter, h2:first-letter {
     padding-bottom: 25px;
     padding-left: 45px;
     padding-right: 45px; }
-    .fullcontainer.assets .container_host.top_host {
+    .fullcontainer_assets .container_host.top_host {
       position: absolute;
       top: 260px;
       bottom: auto;
       left: 1540px;
       right: auto; }
-    .fullcontainer.assets .container_host.bottom_host {
+    .fullcontainer_assets .container_host.bottom_host {
       position: absolute;
       top: 580px;
       bottom: auto;
       left: 1540px;
       right: auto; }
-    .fullcontainer.assets .container_host h2 {
+    .fullcontainer_assets .container_host h2 {
       margin-top: 0;
       margin-bottom: 3px;
       margin-left: 0;
@@ -497,7 +468,7 @@ h1:first-letter, h2:first-letter {
       line-height: 24px;
       color: white;
       letter-spacing: 0; }
-      .fullcontainer.assets .container_host h2 .last_name {
+      .fullcontainer_assets .container_host h2 .last_name {
         font-family: Prompt;
         font-weight: 900;
         font-size: 25px;
@@ -505,7 +476,7 @@ h1:first-letter, h2:first-letter {
         color: white;
         letter-spacing: 0;
         display: block; }
-    .fullcontainer.assets .container_host p {
+    .fullcontainer_assets .container_host p {
       font-family: Prompt;
       font-weight: 200;
       font-size: 18px;
@@ -513,9 +484,9 @@ h1:first-letter, h2:first-letter {
       color: white;
       letter-spacing: 0;
       opacity: 0.7; }
-  .fullcontainer.assets .container_guest {
+  .fullcontainer_assets .container_guest {
     background-color: #1e5069;
-    background-image: url("img/btg_fond-ecran.png");
+    background-image: url("../img/btg_fond-ecran.png");
     display: block;
     width: 290px;
     height: auto;
@@ -531,7 +502,7 @@ h1:first-letter, h2:first-letter {
     background-image: url("img/btg_fond-encart.png");
     background-repeat: no-repeat;
     background-position: 80px top; }
-    .fullcontainer.assets .container_guest h2 {
+    .fullcontainer_assets .container_guest h2 {
       margin-top: 0;
       margin-bottom: 5px;
       margin-left: 0;
@@ -542,7 +513,7 @@ h1:first-letter, h2:first-letter {
       line-height: 24px;
       color: white;
       letter-spacing: 0; }
-      .fullcontainer.assets .container_guest h2 .last_name {
+      .fullcontainer_assets .container_guest h2 .last_name {
         font-family: Prompt;
         font-weight: 900;
         font-size: 25px;
@@ -550,7 +521,7 @@ h1:first-letter, h2:first-letter {
         color: white;
         letter-spacing: 0;
         display: block; }
-    .fullcontainer.assets .container_guest p {
+    .fullcontainer_assets .container_guest p {
       font-family: Prompt;
       font-weight: 200;
       font-size: 18px;
