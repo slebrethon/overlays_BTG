@@ -1,3 +1,68 @@
+/* PROMPT BASE
+------------------------------------------------------------------------------------------------------------------------------------ */
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/prompt_thin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/prompt_extralight.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/prompt_light.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/prompt_regular.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/prompt_medium.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/prompt_semibold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/prompt_bold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/prompt_extrabold.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/prompt_black.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 /* PROMPT ITALIC
 ------------------------------------------------------------------------------------------------------------------------------------ */
 @font-face {
@@ -63,84 +128,18 @@
   font-display: swap;
   src: url(../fonts/prompt-italic_black.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-/* PROMPT NORMAL
------------------------------------------------------------------------------------------------------------------------------------- */
-@font-face {
-  font-family: 'Prompt';
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url(../fonts/prompt_thin.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face {
-  font-family: 'Prompt';
-  font-style: normal;
-  font-weight: 200;
-  font-display: swap;
-  src: url(../fonts/prompt_extralight.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face {
-  font-family: 'Prompt';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(../fonts/prompt_light.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face {
-  font-family: 'Prompt';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../fonts/prompt_regular.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face {
-  font-family: 'Prompt';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(../fonts/prompt_medium.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face {
-  font-family: 'Prompt';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(../fonts/prompt_semibold.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face {
-  font-family: 'Prompt';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(../fonts/prompt_bold.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face {
-  font-family: 'Prompt';
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url("../fonts/prompt_extrabold.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face {
-  font-family: 'Prompt';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(../fonts/prompt_black.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 /* element VARIABLES
 ------------------------------------------------------------------------------------------------------------------------------------ */
 /* element MIXIN
 ------------------------------------------------------------------------------------------------------------------------------------ */
 /* element GLOBAL
 ------------------------------------------------------------------------------------------------------------------------------------ */
-/* line 37, scss/_btg-comon.scss */
 * {
   margin: 0;
   padding: 0; }
 
-/* line 41, scss/_btg-comon.scss */
 body {
+  background-color: rgba(0, 0, 0, 0);
   font-family: Prompt, Arial, Helvetica, sans-serif;
   font-size: 15px;
   display: block;
@@ -148,167 +147,385 @@ body {
   height: 1080px;
   overflow: hidden; }
 
-/* element TIMER
------------------------------------------------------------------------------------------------------------------------------------- */
-/* line 5, scss/_btg-intro.scss */
-.fullcontainer_intro-timer {
-  text-align: center;
-  width: 100%; }
-  /* line 8, scss/_btg-intro.scss */
-  .fullcontainer_intro-timer .container_texte {
-    margin: 50px 0; }
-    /* line 10, scss/_btg-intro.scss */
-    .fullcontainer_intro-timer .container_texte p {
-      font-family: Prompt;
-      font-weight: 300;
-      font-size: 15px;
-      line-height: 15px;
-      color: white;
-      letter-spacing: 2px; }
-  /* line 14, scss/_btg-intro.scss */
-  .fullcontainer_intro-timer .container_timer {
-    width: 100%;
-    opacity: 0.15; }
-    /* line 17, scss/_btg-intro.scss */
-    .fullcontainer_intro-timer .container_timer p {
-      margin-left: -60px;
-      font-family: Prompt;
-      font-weight: 900;
-      font-size: 700px;
-      line-height: 10px;
-      color: white;
-      letter-spacing: 1rem; }
+h1:first-letter, h2:first-letter {
+  text-transform: uppercase; }
 
-/* element GUEST
------------------------------------------------------------------------------------------------------------------------------------- */
-/* line 26, scss/_btg-intro.scss */
-.fullcontainer_intro-guest {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  bottom: 110px;
-  left: 95px; }
-  /* line 32, scss/_btg-intro.scss */
-  .fullcontainer_intro-guest .container_title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    /* line 37, scss/_btg-intro.scss */
-    .fullcontainer_intro-guest .container_title .container_name p {
-      font-family: Prompt;
-      font-weight: 200;
-      font-size: 35px;
-      line-height: 35px;
-      color: white;
-      letter-spacing: 0; }
-      /* line 39, scss/_btg-intro.scss */
-      .fullcontainer_intro-guest .container_title .container_name p span {
-        font-family: Prompt;
-        font-weight: 200;
-        font-size: 40px;
-        line-height: 35px;
-        color: white;
-        letter-spacing: 0; }
-        /* line 41, scss/_btg-intro.scss */
-        .fullcontainer_intro-guest .container_title .container_name p span strong {
-          font-family: Prompt;
-          font-weight: 900;
-          font-size: 40px;
-          line-height: 35px;
-          color: white;
-          letter-spacing: 0; }
-    /* line 48, scss/_btg-intro.scss */
-    .fullcontainer_intro-guest .container_title .container_fonction p {
-      font-family: Prompt;
-      font-weight: 200;
-      font-size: 25px;
-      line-height: 25px;
-      color: white;
-      letter-spacing: 0; }
+.last_name {
+  text-transform: uppercase; }
 
-/* element ORGA
------------------------------------------------------------------------------------------------------------------------------------- */
-/* line 57, scss/_btg-intro.scss */
-.fullcontainer_intro-orga {
-  position: absolute;
-  bottom: 110px;
-  right: 95px; }
-  /* line 62, scss/_btg-intro.scss */
-  .fullcontainer_intro-orga .container_orga .orga_title {
+.container_title {
+  padding-top: 55px;
+  padding-bottom: 0;
+  padding-left: 95px;
+  padding-right: 0; }
+  .container_title h1 {
     font-family: Prompt;
-    font-weight: 100;
-    font-size: 25px;
-    line-height: 25px;
-    color: white;
-    letter-spacing: 0; }
-  /* line 65, scss/_btg-intro.scss */
-  .fullcontainer_intro-orga .container_orga p {
-    font-family: Prompt;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 30px;
-    line-height: 30px;
+    line-height: 40px;
     color: white;
     letter-spacing: 0; }
-    /* line 67, scss/_btg-intro.scss */
-    .fullcontainer_intro-orga .container_orga p strong {
+    .container_title h1 .last_name {
       font-family: Prompt;
       font-weight: 900;
-      font-size: 30px;
-      line-height: 30px;
+      font-size: 40px;
+      line-height: 40px;
       color: white;
       letter-spacing: 0; }
+  .container_title p {
+    font-family: Prompt;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    letter-spacing: 0;
+    opacity: 0.7; }
 
-/* element TITLE
+.fullcontainer {
+  background-color: #0f3c5f;
+  background-image: url("../img/btg_fond-ecran.png");
+  display: block;
+  width: 1920px;
+  height: 1080px; }
+
+/* element INTRO - HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
-/* line 5, scss/_btg-global.scss */
-.fullcontainer_global-title {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  top: 55px;
-  left: 95px; }
-  /* line 11, scss/_btg-global.scss */
-  .fullcontainer_global-title .container_logo {
-    margin: 0 5px 0 0; }
-  /* line 14, scss/_btg-global.scss */
-  .fullcontainer_global-title .container_guest {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    /* line 19, scss/_btg-global.scss */
-    .fullcontainer_global-title .container_guest .container_name p {
+.fullcontainer_intro {
+  background-color: #0f3c5f;
+  background-image: url("../img/btg_fond-ecran.png");
+  display: block;
+  width: 1920px;
+  height: 1080px; }
+  .fullcontainer_intro .container_host {
+    background-color: #50a091;
+    background-image: url("../img/btg_fond-ecran.png");
+    display: block;
+    width: 805px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 0; }
+    .fullcontainer_intro .container_host.left_host {
+      position: absolute;
+      top: 682px;
+      bottom: auto;
+      left: 100px;
+      right: auto; }
+    .fullcontainer_intro .container_host.rigth_host {
+      position: absolute;
+      top: 802px;
+      bottom: auto;
+      left: 965px;
+      right: auto; }
+    .fullcontainer_intro .container_host h2 {
       font-family: Prompt;
       font-weight: 200;
       font-size: 25px;
-      line-height: 25px;
+      line-height: 26px;
       color: white;
-      letter-spacing: 1px; }
-      /* line 21, scss/_btg-global.scss */
-      .fullcontainer_global-title .container_guest .container_name p span {
+      letter-spacing: 0; }
+      .fullcontainer_intro .container_host h2 .last_name {
         font-family: Prompt;
-        font-weight: 200;
-        font-size: 35px;
-        line-height: 30px;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 26px;
         color: white;
-        letter-spacing: 1px; }
-        /* line 23, scss/_btg-global.scss */
-        .fullcontainer_global-title .container_guest .container_name p span strong {
-          font-family: Prompt;
-          font-weight: 900;
-          font-size: 40px;
-          line-height: 35px;
-          color: white;
-          letter-spacing: 0; }
-    /* line 30, scss/_btg-global.scss */
-    .fullcontainer_global-title .container_guest .container_fonction p {
+        letter-spacing: 0;
+        display: block; }
+    .fullcontainer_intro .container_host p {
       font-family: Prompt;
       font-weight: 200;
       font-size: 20px;
       line-height: 20px;
       color: white;
-      letter-spacing: 1px; }
+      letter-spacing: 0;
+      opacity: 0.7; }
 
-/* element GUEST
+/* element DUO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
-/* element HOST
+.fullcontainer_duo {
+  background-color: #0f3c5f;
+  background-image: url("../img/btg_fond-ecran.png");
+  display: block;
+  width: 1920px;
+  height: 1080px; }
+  .fullcontainer_duo .container_host {
+    background-color: #50a091;
+    background-image: url("../img/btg_fond-ecran.png");
+    display: block;
+    width: 940px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: absolute;
+    top: 840px;
+    bottom: auto;
+    left: auto;
+    right: auto; }
+    .fullcontainer_duo .container_host h2 {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 40px;
+      line-height: 42px;
+      color: white;
+      letter-spacing: 0; }
+      .fullcontainer_duo .container_host h2 .last_name {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 42px;
+        color: white;
+        letter-spacing: 0;
+        display: block; }
+    .fullcontainer_duo .container_host p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 25px;
+      line-height: 30px;
+      color: white;
+      letter-spacing: 0;
+      opacity: 0.7; }
+  .fullcontainer_duo .container_guest {
+    background-color: #1e5069;
+    background-image: url("../img/btg_fond-ecran.png");
+    display: block;
+    width: 420px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: absolute;
+    top: 840px;
+    bottom: auto;
+    left: 1382px;
+    right: auto;
+    background-image: url("img/btg_fond-encart.png");
+    background-repeat: no-repeat;
+    background-position: 145px top; }
+    .fullcontainer_duo .container_guest h2 {
+      margin-top: 0;
+      margin-bottom: 3px;
+      margin-left: 0;
+      margin-right: 0;
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      letter-spacing: 0; }
+      .fullcontainer_duo .container_guest h2 .last_name {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 24px;
+        color: white;
+        letter-spacing: 0;
+        display: block; }
+    .fullcontainer_duo .container_guest p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 20px;
+      color: white;
+      letter-spacing: 0;
+      opacity: 0.7; }
+
+/* element TRIO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.trio .container_guest {
+  background-color: #1e5069;
+  background-image: url("../img/btg_fond-ecran.png");
+  display: block;
+  width: 940px;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  position: absolute;
+  top: 840px;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  background-image: url("img/btg_fond-encart.png");
+  background-repeat: no-repeat;
+  background-position: 250px top; }
+  .fullcontainer.trio .container_guest h2 {
+    font-family: Prompt;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 42px;
+    color: white;
+    letter-spacing: 0; }
+    .fullcontainer.trio .container_guest h2 .last_name {
+      font-family: Prompt;
+      font-weight: 900;
+      font-size: 45px;
+      line-height: 42px;
+      color: white;
+      letter-spacing: 0;
+      display: block; }
+  .fullcontainer.trio .container_guest p {
+    font-family: Prompt;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+    letter-spacing: 0;
+    opacity: 0.7; }
+.fullcontainer.trio .container_host {
+  background-color: #50a091;
+  background-image: url("../img/btg_fond-ecran.png");
+  display: block;
+  width: 390px;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 45px;
+  padding-right: 45px; }
+  .fullcontainer.trio .container_host.top_host {
+    position: absolute;
+    top: 460px;
+    bottom: auto;
+    left: 1442px;
+    right: auto; }
+  .fullcontainer.trio .container_host.bottom_host {
+    position: absolute;
+    top: 870px;
+    bottom: auto;
+    left: 1442px;
+    right: auto; }
+  .fullcontainer.trio .container_host h2 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Prompt;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    letter-spacing: 0; }
+    .fullcontainer.trio .container_host h2 .last_name {
+      font-family: Prompt;
+      font-weight: 900;
+      font-size: 25px;
+      line-height: 24px;
+      color: white;
+      letter-spacing: 0;
+      display: block; }
+  .fullcontainer.trio .container_host p {
+    font-family: Prompt;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 15px;
+    color: white;
+    letter-spacing: 0;
+    opacity: 0.7; }
+
+/* element ASSETS - HOST & GUEST & ASSETS
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer_assets {
+  background-color: #0f3c5f;
+  background-image: url("../img/btg_fond-ecran.png");
+  display: block;
+  width: 1920px;
+  height: 1080px; }
+  .fullcontainer_assets .container_host {
+    background-color: #50a091;
+    background-image: url("../img/btg_fond-ecran.png");
+    display: block;
+    width: 290px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    padding-right: 45px; }
+    .fullcontainer_assets .container_host.top_host {
+      position: absolute;
+      top: 260px;
+      bottom: auto;
+      left: 1540px;
+      right: auto; }
+    .fullcontainer_assets .container_host.bottom_host {
+      position: absolute;
+      top: 580px;
+      bottom: auto;
+      left: 1540px;
+      right: auto; }
+    .fullcontainer_assets .container_host h2 {
+      margin-top: 0;
+      margin-bottom: 3px;
+      margin-left: 0;
+      margin-right: 0;
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      letter-spacing: 0; }
+      .fullcontainer_assets .container_host h2 .last_name {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 24px;
+        color: white;
+        letter-spacing: 0;
+        display: block; }
+    .fullcontainer_assets .container_host p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 15px;
+      color: white;
+      letter-spacing: 0;
+      opacity: 0.7; }
+  .fullcontainer_assets .container_guest {
+    background-color: #1e5069;
+    background-image: url("../img/btg_fond-ecran.png");
+    display: block;
+    width: 290px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    position: absolute;
+    top: 900px;
+    bottom: auto;
+    left: 1540px;
+    right: auto;
+    background-image: url("img/btg_fond-encart.png");
+    background-repeat: no-repeat;
+    background-position: 80px top; }
+    .fullcontainer_assets .container_guest h2 {
+      margin-top: 0;
+      margin-bottom: 5px;
+      margin-left: 0;
+      margin-right: 0;
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 20px;
+      line-height: 24px;
+      color: white;
+      letter-spacing: 0; }
+      .fullcontainer_assets .container_guest h2 .last_name {
+        font-family: Prompt;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 24px;
+        color: white;
+        letter-spacing: 0;
+        display: block; }
+    .fullcontainer_assets .container_guest p {
+      font-family: Prompt;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 18px;
+      color: white;
+      letter-spacing: 0;
+      opacity: 0.7; }
