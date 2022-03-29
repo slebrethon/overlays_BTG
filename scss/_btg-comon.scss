@@ -42,6 +42,63 @@ h1, h2 {
 }
 
 
+/* element BEGIN
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.begin
+{
+	.container_host{
+
+		
+		&.left_season{
+			@include position(absolute,505px,auto,auto,auto);
+			
+			.profil_host_infos{
+				@include content($color_green, flex, 1030px, 185px);
+				@include margin(-130px, auto, 100px, auto);
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding-left: 400px;
+				h2 {
+					@include font(Prompt,200,40px,26px,$color_white,0);
+					.last_name {
+						@include font(Prompt,900,46px,26px,$color_white,0);
+					}
+				}
+				p {
+					@include font(Prompt,200,26px,60px,$color_white,0);
+					opacity: $opacity;
+				}
+			}
+		}
+
+		&.rigth_season{
+			@include content(transparent, block, 920px, 425px);
+			@include position(absolute,290px,auto,910px,auto);
+			img{
+				margin-left:50px; 
+			}
+			h2{
+				@include content($color_bluelight, flex, 920px, 90px);
+				@include font(Prompt,900,36px,90px,$color_white,0);
+				@include margin(25px, auto, auto, auto);
+				padding-left: 45px;
+				flex-direction: column;
+				justify-content: center;
+				background-image: url("img/btg_fond-encart.png");
+				background-repeat: no-repeat;
+				background-position: 450px top;
+			}
+
+		}
+	}
+		
+
+	.container_lyongamedev {
+		@include position(absolute,856px,auto,1610px,auto);
+	}
+}
+
 /* element PAUSE
 ------------------------------------------------------------------------------------------------------------------------------------ */
 .fullcontainer.wait {
