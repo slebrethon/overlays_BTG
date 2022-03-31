@@ -1,4 +1,5 @@
 // variable BEHINDTHEGAME
+var season_number = "S02-E03"
 
 // variable GUEST
 var guest_firstname = "léa"
