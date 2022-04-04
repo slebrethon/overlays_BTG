@@ -839,4 +839,153 @@ h1:first-letter, h2:first-letter {
   opacity: 0.7;
 }
 
+/* element QUESTION - HOST & GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.question .container_question {
+  position: absolute;
+  top: 660px;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+.fullcontainer.question .container_question1 {
+  background-color: #50a091;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 250px;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.fullcontainer.question .container_question1 h2 {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 30px;
+  color: white;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.fullcontainer.question .container_question2 {
+  background-color: #0f3c5f;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 940px;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  letter-spacing: 1;
+  background-image: none;
+  opacity: 1;
+}
+.fullcontainer.question .container_guest {
+  background-color: #1e5069;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 940px;
+  height: auto;
+  position: absolute;
+  top: 840px;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  background-image: url("img/btg_fond-encart.png");
+  background-repeat: no-repeat;
+  background-position: 250px top;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.fullcontainer.question .container_guest h2 {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 42px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.question .container_guest h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 42px;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+}
+.fullcontainer.question .container_guest p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
+.fullcontainer.question .container_host {
+  background-color: #50a091;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 390px;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.fullcontainer.question .container_host.top_host {
+  position: absolute;
+  top: 460px;
+  bottom: auto;
+  left: 1442px;
+  right: auto;
+}
+.fullcontainer.question .container_host.bottom_host {
+  position: absolute;
+  top: 870px;
+  bottom: auto;
+  left: 1442px;
+  right: auto;
+}
+.fullcontainer.question .container_host h2 {
+  margin-top: 0;
+  margin-bottom: 3px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.question .container_host h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+}
+.fullcontainer.question .container_host p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 15px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
+
 /*# sourceMappingURL=style.css.map */

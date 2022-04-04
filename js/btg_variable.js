@@ -23,7 +23,6 @@ var regie_03_lastname = "ringot"
 var designer_firstname = "stéphane"
 var designer_lastname = "le brethon"
 
-
 // variable PAUSE
 var pause_title = "en pause"
 var pause_subtitle = "... problème technique nous revenons dans quelques instants."
@@ -36,3 +35,5 @@ var end_regie = "régie"
 var end_designer = "design"
 
 
+// variable QUESTION
+var question_01 = "Le premier nom du célèbre plombier de la société Nintendo n’était pas Mario mais Jumpman ?"
