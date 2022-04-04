@@ -355,6 +355,125 @@ h1:first-letter, h2:first-letter {
   right: auto;
 }
 
+/* element END
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.end .container_thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-top: 220px;
+  padding-bottom: 50px;
+}
+.fullcontainer.end .container_thanks h1 {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 160px;
+  color: white;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.fullcontainer.end .container_thanks p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Prompt;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 50px;
+  color: white;
+  letter-spacing: 0;
+  background-color: transparent;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 1600px;
+  height: auto;
+  text-align: center;
+}
+.fullcontainer.end .center {
+  text-align: center;
+}
+.fullcontainer.end .bloc_contributors {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 0;
+  color: white;
+}
+.fullcontainer.end .bloc_contributors .bloc_contributors_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  position: relative;
+}
+.fullcontainer.end .bloc_contributors .bloc_contributors_body h2 {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 36px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.end .bloc_contributors .bloc_contributors_body h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.end .bloc_contributors .bloc_contributors_body p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 26px;
+  line-height: 34px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
+.fullcontainer.end .bloc_contributors:nth-child(2) {
+  background-image: url("img/bg_contributors-1.png");
+  background-repeat: repeat-y;
+  margin-bottom: -20px;
+  position: relative;
+  z-index: 100;
+}
+.fullcontainer.end .bloc_contributors:nth-child(3) {
+  position: relative;
+  z-index: 99;
+  background-image: url("img/btg_fond-encart-600.png"), url("img/bg_contributors-2.png");
+  background-repeat: no-repeat, repeat-y;
+  background-position: 550px top, 0 top;
+  background-size: auto, auto;
+  margin-bottom: -30px;
+}
+.fullcontainer.end .bloc_contributors:nth-child(3) .bloc_contributors_body {
+  padding-top: 15px;
+}
+.fullcontainer.end .bloc_contributors:nth-child(4) {
+  position: relative;
+  z-index: 98;
+  background-image: url("img/bg_contributors-3.png");
+  background-repeat: repeat-y;
+}
+.fullcontainer.end .bloc_contributors:nth-child(4) .bloc_contributors_body {
+  padding-top: 15px;
+}
+.fullcontainer.end .container_lyongamedev {
+  position: absolute;
+  top: 856px;
+  bottom: auto;
+  left: 1610px;
+  right: auto;
+}
+
 /* element INTRO - HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
 .fullcontainer.intro .container_host {
