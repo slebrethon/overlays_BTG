@@ -1,133 +1,151 @@
 /* PROMPT BASE
 ------------------------------------------------------------------------------------------------------------------------------------ */
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url(../fonts/prompt_thin.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt_thin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(../fonts/prompt_extralight.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt_extralight.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(../fonts/prompt_light.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt_light.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/prompt_regular.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt_regular.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(../fonts/prompt_medium.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt_medium.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(../fonts/prompt_semibold.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt_semibold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(../fonts/prompt_bold.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt_bold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: normal;
   font-weight: 800;
   font-display: swap;
   src: url("../fonts/prompt_extrabold.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(../fonts/prompt_black.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt_black.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /* PROMPT ITALIC
 ------------------------------------------------------------------------------------------------------------------------------------ */
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: url(../fonts/prompt-italic_thin.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt-italic_thin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url(../fonts/prompt-italic_extralight.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt-italic_extralight.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url(../fonts/prompt-italic_light.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt-italic_light.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/prompt-italic_regular.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt-italic_regular.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(../fonts/prompt-italic_medium.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt-italic_medium.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url(../fonts/prompt-italic_semibold.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt-italic_semibold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(../fonts/prompt-italic_bold.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt-italic_bold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: italic;
   font-weight: 800;
   font-display: swap;
-  src: url(../fonts/prompt-italic_extrabold.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt-italic_extrabold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
-  font-family: 'Prompt';
+  font-family: "Prompt";
   font-style: italic;
   font-weight: 900;
   font-display: swap;
-  src: url(../fonts/prompt-italic_black.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  src: url(fonts/prompt-italic_black.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /* element VARIABLES
 ------------------------------------------------------------------------------------------------------------------------------------ */
 /* element MIXIN
@@ -136,7 +154,8 @@
 ------------------------------------------------------------------------------------------------------------------------------------ */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
   background-color: rgba(0, 0, 0, 0);
@@ -145,49 +164,152 @@ body {
   display: block;
   width: 1920px;
   height: 1080px;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 h1:first-letter, h2:first-letter {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .last_name {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .container_title {
   padding-top: 55px;
   padding-bottom: 0;
   padding-left: 95px;
   padding-right: 0;
-  position: absolute; }
-  .container_title h1 {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 30px;
-    line-height: 40px;
-    color: white;
-    letter-spacing: 0; }
-    .container_title h1 .last_name {
-      font-family: Prompt;
-      font-weight: 900;
-      font-size: 40px;
-      line-height: 40px;
-      color: white;
-      letter-spacing: 0; }
-  .container_title p {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 20px;
-    color: white;
-    letter-spacing: 0;
-    opacity: 0.7; }
+  position: absolute;
+}
+.container_title h1 {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 40px;
+  color: white;
+  letter-spacing: 0;
+}
+.container_title h1 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 40px;
+  color: white;
+  letter-spacing: 0;
+}
+.container_title p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
 
 .fullcontainer {
   background-color: #0f3c5f;
   background-image: url("img/btg_fond-ecran.png");
   display: block;
   width: 1920px;
-  height: 1080px; }
+  height: 1080px;
+}
+
+/* element BEGIN
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.begin .container_host.left_season {
+  position: absolute;
+  top: 505px;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+.fullcontainer.begin .container_host.left_season .profil_host_infos {
+  background-color: #50a091;
+  background-image: url("img/btg_fond-ecran.png");
+  display: flex;
+  width: 1030px;
+  height: 185px;
+  margin-top: -130px;
+  margin-bottom: auto;
+  margin-left: 100px;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 400px;
+}
+.fullcontainer.begin .container_host.left_season .profil_host_infos h2 {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 26px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.begin .container_host.left_season .profil_host_infos h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 26px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.begin .container_host.left_season .profil_host_infos p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 26px;
+  line-height: 60px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
+.fullcontainer.begin .container_host.rigth_season {
+  background-color: transparent;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 920px;
+  height: 425px;
+  position: absolute;
+  top: 290px;
+  bottom: auto;
+  left: 910px;
+  right: auto;
+}
+.fullcontainer.begin .container_host.rigth_season img {
+  margin-left: 50px;
+}
+.fullcontainer.begin .container_host.rigth_season h2 {
+  background-color: #1e5069;
+  background-image: url("img/btg_fond-ecran.png");
+  display: flex;
+  width: 920px;
+  height: 90px;
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 90px;
+  color: white;
+  letter-spacing: 0;
+  margin-top: 25px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 45px;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("img/btg_fond-encart.png");
+  background-repeat: no-repeat;
+  background-position: 450px top;
+}
+.fullcontainer.begin .container_lyongamedev {
+  position: absolute;
+  top: 856px;
+  bottom: auto;
+  left: 1610px;
+  right: auto;
+}
 
 /* element PAUSE
 ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -196,38 +318,161 @@ h1:first-letter, h2:first-letter {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1080px; }
-  .fullcontainer.wait .container_wait h1 {
-    font-family: Prompt;
-    font-weight: 900;
-    font-size: 200px;
-    line-height: 160px;
-    color: white;
-    letter-spacing: 0;
-    text-transform: uppercase; }
-  .fullcontainer.wait .container_wait p {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 40px;
-    line-height: 40px;
-    color: white;
-    letter-spacing: 0;
-    background-color: transparent;
-    background-image: url("img/btg_fond-ecran.png");
-    display: block;
-    width: 1600px;
-    height: auto;
-    text-align: center; }
+  height: 1080px;
+}
+.fullcontainer.wait .container_wait h1 {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 160px;
+  color: white;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.fullcontainer.wait .container_wait p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 40px;
+  color: white;
+  letter-spacing: 0;
+  background-color: transparent;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 1600px;
+  height: auto;
+  text-align: center;
+}
 .fullcontainer.wait .container_lyongamedev {
   position: absolute;
   top: 856px;
   bottom: auto;
   left: 1614px;
-  right: auto; }
+  right: auto;
+}
+
+/* element END
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.end .container_thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-top: 220px;
+  padding-bottom: 50px;
+}
+.fullcontainer.end .container_thanks h1 {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 160px;
+  color: white;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.fullcontainer.end .container_thanks p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Prompt;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 50px;
+  color: white;
+  letter-spacing: 0;
+  background-color: transparent;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 1600px;
+  height: auto;
+  text-align: center;
+}
+.fullcontainer.end .center {
+  text-align: center;
+}
+.fullcontainer.end .bloc_contributors {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 0;
+  color: white;
+}
+.fullcontainer.end .bloc_contributors .bloc_contributors_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  position: relative;
+}
+.fullcontainer.end .bloc_contributors .bloc_contributors_body h2 {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 36px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.end .bloc_contributors .bloc_contributors_body h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.end .bloc_contributors .bloc_contributors_body p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 26px;
+  line-height: 34px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
+.fullcontainer.end .bloc_contributors:nth-child(2) {
+  background-image: url("img/bg_contributors-1.png");
+  background-repeat: repeat-y;
+  margin-bottom: -20px;
+  position: relative;
+  z-index: 100;
+}
+.fullcontainer.end .bloc_contributors:nth-child(3) {
+  position: relative;
+  z-index: 99;
+  background-image: url("img/btg_fond-encart-600.png"), url("img/bg_contributors-2.png");
+  background-repeat: no-repeat, repeat-y;
+  background-position: 550px top, 0 top;
+  background-size: auto, auto;
+  margin-bottom: -30px;
+}
+.fullcontainer.end .bloc_contributors:nth-child(3) .bloc_contributors_body {
+  padding-top: 15px;
+}
+.fullcontainer.end .bloc_contributors:nth-child(4) {
+  position: relative;
+  z-index: 98;
+  background-image: url("img/bg_contributors-3.png");
+  background-repeat: repeat-y;
+}
+.fullcontainer.end .bloc_contributors:nth-child(4) .bloc_contributors_body {
+  padding-top: 15px;
+}
+.fullcontainer.end .container_lyongamedev {
+  position: absolute;
+  top: 856px;
+  bottom: auto;
+  left: 1610px;
+  right: auto;
+}
 
 /* element INTRO - HOST
 ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -240,42 +485,48 @@ h1:first-letter, h2:first-letter {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 60px;
-  padding-right: 0; }
-  .fullcontainer.intro .container_host.left_host {
-    position: absolute;
-    top: 682px;
-    bottom: auto;
-    left: 100px;
-    right: auto; }
-  .fullcontainer.intro .container_host.rigth_host {
-    position: absolute;
-    top: 802px;
-    bottom: auto;
-    left: 965px;
-    right: auto; }
-  .fullcontainer.intro .container_host h2 {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 25px;
-    line-height: 26px;
-    color: white;
-    letter-spacing: 0; }
-    .fullcontainer.intro .container_host h2 .last_name {
-      font-family: Prompt;
-      font-weight: 900;
-      font-size: 30px;
-      line-height: 26px;
-      color: white;
-      letter-spacing: 0;
-      display: block; }
-  .fullcontainer.intro .container_host p {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 20px;
-    color: white;
-    letter-spacing: 0;
-    opacity: 0.7; }
+  padding-right: 0;
+}
+.fullcontainer.intro .container_host.left_host {
+  position: absolute;
+  top: 682px;
+  bottom: auto;
+  left: 100px;
+  right: auto;
+}
+.fullcontainer.intro .container_host.rigth_host {
+  position: absolute;
+  top: 802px;
+  bottom: auto;
+  left: 965px;
+  right: auto;
+}
+.fullcontainer.intro .container_host h2 {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 26px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.intro .container_host h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 26px;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+}
+.fullcontainer.intro .container_host p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
 
 /* element DUO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -293,30 +544,34 @@ h1:first-letter, h2:first-letter {
   top: 840px;
   bottom: auto;
   left: auto;
-  right: auto; }
-  .fullcontainer.duo .container_host h2 {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 40px;
-    line-height: 42px;
-    color: white;
-    letter-spacing: 0; }
-    .fullcontainer.duo .container_host h2 .last_name {
-      font-family: Prompt;
-      font-weight: 900;
-      font-size: 45px;
-      line-height: 42px;
-      color: white;
-      letter-spacing: 0;
-      display: block; }
-  .fullcontainer.duo .container_host p {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 25px;
-    line-height: 30px;
-    color: white;
-    letter-spacing: 0;
-    opacity: 0.7; }
+  right: auto;
+}
+.fullcontainer.duo .container_host h2 {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 42px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.duo .container_host h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 42px;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+}
+.fullcontainer.duo .container_host p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
 .fullcontainer.duo .container_guest {
   background-color: #1e5069;
   background-image: url("img/btg_fond-ecran.png");
@@ -334,34 +589,38 @@ h1:first-letter, h2:first-letter {
   right: auto;
   background-image: url("img/btg_fond-encart.png");
   background-repeat: no-repeat;
-  background-position: 145px top; }
-  .fullcontainer.duo .container_guest h2 {
-    margin-top: 0;
-    margin-bottom: 3px;
-    margin-left: 0;
-    margin-right: 0;
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 24px;
-    color: white;
-    letter-spacing: 0; }
-    .fullcontainer.duo .container_guest h2 .last_name {
-      font-family: Prompt;
-      font-weight: 900;
-      font-size: 25px;
-      line-height: 24px;
-      color: white;
-      letter-spacing: 0;
-      display: block; }
-  .fullcontainer.duo .container_guest p {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 20px;
-    color: white;
-    letter-spacing: 0;
-    opacity: 0.7; }
+  background-position: 145px top;
+}
+.fullcontainer.duo .container_guest h2 {
+  margin-top: 0;
+  margin-bottom: 3px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.duo .container_guest h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+}
+.fullcontainer.duo .container_guest p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
 
 /* element TRIO - HOST & GUEST
 ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -382,30 +641,34 @@ h1:first-letter, h2:first-letter {
   right: auto;
   background-image: url("img/btg_fond-encart.png");
   background-repeat: no-repeat;
-  background-position: 250px top; }
-  .fullcontainer.trio .container_guest h2 {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 40px;
-    line-height: 42px;
-    color: white;
-    letter-spacing: 0; }
-    .fullcontainer.trio .container_guest h2 .last_name {
-      font-family: Prompt;
-      font-weight: 900;
-      font-size: 45px;
-      line-height: 42px;
-      color: white;
-      letter-spacing: 0;
-      display: block; }
-  .fullcontainer.trio .container_guest p {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 25px;
-    line-height: 30px;
-    color: white;
-    letter-spacing: 0;
-    opacity: 0.7; }
+  background-position: 250px top;
+}
+.fullcontainer.trio .container_guest h2 {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 42px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.trio .container_guest h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 42px;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+}
+.fullcontainer.trio .container_guest p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
 .fullcontainer.trio .container_host {
   background-color: #50a091;
   background-image: url("img/btg_fond-ecran.png");
@@ -415,46 +678,52 @@ h1:first-letter, h2:first-letter {
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 45px;
-  padding-right: 45px; }
-  .fullcontainer.trio .container_host.top_host {
-    position: absolute;
-    top: 460px;
-    bottom: auto;
-    left: 1442px;
-    right: auto; }
-  .fullcontainer.trio .container_host.bottom_host {
-    position: absolute;
-    top: 870px;
-    bottom: auto;
-    left: 1442px;
-    right: auto; }
-  .fullcontainer.trio .container_host h2 {
-    margin-top: 0;
-    margin-bottom: 3px;
-    margin-left: 0;
-    margin-right: 0;
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 24px;
-    color: white;
-    letter-spacing: 0; }
-    .fullcontainer.trio .container_host h2 .last_name {
-      font-family: Prompt;
-      font-weight: 900;
-      font-size: 25px;
-      line-height: 24px;
-      color: white;
-      letter-spacing: 0;
-      display: block; }
-  .fullcontainer.trio .container_host p {
-    font-family: Prompt;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 15px;
-    color: white;
-    letter-spacing: 0;
-    opacity: 0.7; }
+  padding-right: 45px;
+}
+.fullcontainer.trio .container_host.top_host {
+  position: absolute;
+  top: 460px;
+  bottom: auto;
+  left: 1442px;
+  right: auto;
+}
+.fullcontainer.trio .container_host.bottom_host {
+  position: absolute;
+  top: 870px;
+  bottom: auto;
+  left: 1442px;
+  right: auto;
+}
+.fullcontainer.trio .container_host h2 {
+  margin-top: 0;
+  margin-bottom: 3px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.trio .container_host h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+}
+.fullcontainer.trio .container_host p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 15px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
 
 /* element ASSETS - HOST & GUEST & ASSETS
 ------------------------------------------------------------------------------------------------------------------------------------ */
@@ -463,98 +732,260 @@ h1:first-letter, h2:first-letter {
   background-image: url("img/btg_fond-ecran.png");
   display: block;
   width: 1920px;
-  height: 1080px; }
-  .fullcontainer.assets .container_host {
-    background-color: #50a091;
-    background-image: url("img/btg_fond-ecran.png");
-    display: block;
-    width: 290px;
-    height: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 45px;
-    padding-right: 45px; }
-    .fullcontainer.assets .container_host.top_host {
-      position: absolute;
-      top: 260px;
-      bottom: auto;
-      left: 1540px;
-      right: auto; }
-    .fullcontainer.assets .container_host.bottom_host {
-      position: absolute;
-      top: 580px;
-      bottom: auto;
-      left: 1540px;
-      right: auto; }
-    .fullcontainer.assets .container_host h2 {
-      margin-top: 0;
-      margin-bottom: 3px;
-      margin-left: 0;
-      margin-right: 0;
-      font-family: Prompt;
-      font-weight: 200;
-      font-size: 20px;
-      line-height: 24px;
-      color: white;
-      letter-spacing: 0; }
-      .fullcontainer.assets .container_host h2 .last_name {
-        font-family: Prompt;
-        font-weight: 900;
-        font-size: 25px;
-        line-height: 24px;
-        color: white;
-        letter-spacing: 0;
-        display: block; }
-    .fullcontainer.assets .container_host p {
-      font-family: Prompt;
-      font-weight: 200;
-      font-size: 18px;
-      line-height: 15px;
-      color: white;
-      letter-spacing: 0;
-      opacity: 0.7; }
-  .fullcontainer.assets .container_guest {
-    background-color: #1e5069;
-    background-image: url("img/btg_fond-ecran.png");
-    display: block;
-    width: 290px;
-    height: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 45px;
-    padding-right: 45px;
-    position: absolute;
-    top: 900px;
-    bottom: auto;
-    left: 1540px;
-    right: auto;
-    background-image: url("img/btg_fond-encart.png");
-    background-repeat: no-repeat;
-    background-position: 80px top; }
-    .fullcontainer.assets .container_guest h2 {
-      margin-top: 0;
-      margin-bottom: 5px;
-      margin-left: 0;
-      margin-right: 0;
-      font-family: Prompt;
-      font-weight: 200;
-      font-size: 20px;
-      line-height: 24px;
-      color: white;
-      letter-spacing: 0; }
-      .fullcontainer.assets .container_guest h2 .last_name {
-        font-family: Prompt;
-        font-weight: 900;
-        font-size: 25px;
-        line-height: 24px;
-        color: white;
-        letter-spacing: 0;
-        display: block; }
-    .fullcontainer.assets .container_guest p {
-      font-family: Prompt;
-      font-weight: 200;
-      font-size: 18px;
-      line-height: 18px;
-      color: white;
-      letter-spacing: 0;
-      opacity: 0.7; }
+  height: 1080px;
+}
+.fullcontainer.assets .container_host {
+  background-color: #50a091;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 290px;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.fullcontainer.assets .container_host.top_host {
+  position: absolute;
+  top: 260px;
+  bottom: auto;
+  left: 1540px;
+  right: auto;
+}
+.fullcontainer.assets .container_host.bottom_host {
+  position: absolute;
+  top: 580px;
+  bottom: auto;
+  left: 1540px;
+  right: auto;
+}
+.fullcontainer.assets .container_host h2 {
+  margin-top: 0;
+  margin-bottom: 3px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.assets .container_host h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+}
+.fullcontainer.assets .container_host p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 15px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
+.fullcontainer.assets .container_guest {
+  background-color: #1e5069;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 290px;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+  position: absolute;
+  top: 900px;
+  bottom: auto;
+  left: 1540px;
+  right: auto;
+  background-image: url("img/btg_fond-encart.png");
+  background-repeat: no-repeat;
+  background-position: 80px top;
+}
+.fullcontainer.assets .container_guest h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.assets .container_guest h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+}
+.fullcontainer.assets .container_guest p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
+
+/* element QUESTION - HOST & GUEST
+------------------------------------------------------------------------------------------------------------------------------------ */
+.fullcontainer.question .container_question {
+  position: absolute;
+  top: 660px;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+.fullcontainer.question .container_question1 {
+  background-color: #50a091;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 250px;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.fullcontainer.question .container_question1 h2 {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 30px;
+  color: white;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.fullcontainer.question .container_question2 {
+  background-color: #0f3c5f;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 940px;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  letter-spacing: 1;
+  background-image: none;
+  opacity: 1;
+}
+.fullcontainer.question .container_guest {
+  background-color: #1e5069;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 940px;
+  height: auto;
+  position: absolute;
+  top: 840px;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  background-image: url("img/btg_fond-encart.png");
+  background-repeat: no-repeat;
+  background-position: 250px top;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.fullcontainer.question .container_guest h2 {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 42px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.question .container_guest h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 42px;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+}
+.fullcontainer.question .container_guest p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
+.fullcontainer.question .container_host {
+  background-color: #50a091;
+  background-image: url("img/btg_fond-ecran.png");
+  display: block;
+  width: 390px;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.fullcontainer.question .container_host.top_host {
+  position: absolute;
+  top: 460px;
+  bottom: auto;
+  left: 1442px;
+  right: auto;
+}
+.fullcontainer.question .container_host.bottom_host {
+  position: absolute;
+  top: 870px;
+  bottom: auto;
+  left: 1442px;
+  right: auto;
+}
+.fullcontainer.question .container_host h2 {
+  margin-top: 0;
+  margin-bottom: 3px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+}
+.fullcontainer.question .container_host h2 .last_name {
+  font-family: Prompt;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 0;
+  display: block;
+}
+.fullcontainer.question .container_host p {
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 15px;
+  color: white;
+  letter-spacing: 0;
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=style.css.map */
